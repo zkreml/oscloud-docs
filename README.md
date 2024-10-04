@@ -1,4 +1,4 @@
-# oscloud-docs
+# Oscloud-docs
 
 Tento repozitář obsahuje dokumentaci a návody pro platformu OSCloud, využívající MkDocs pro snadnou správu a nasazení.
 
@@ -31,40 +31,42 @@ mkdocs build
 ```
 ## Nasazení na OSCloud pomocí LAMP
 
-1. Přístup k LAMP serveru na OSCloud: Přihlas se do LAMP aplikace přes administraci na adrese `my.oscloud.cz` a otevři terminál pro danou aplikaci.
+1. **Přístup k LAMP serveru na OSCloud: Přihlas se do LAMP aplikace přes administraci na adrese `my.oscloud.cz` a otevři terminál pro danou aplikaci.**
 
-2. Instalace MkDocs na serveru: V terminálu na serveru spusť tento příkaz:
+2. **Instalace MkDocs na serveru: V terminálu na serveru spusť tento příkaz:**
 
 ```bash
 pip install mkdocs
 ```
-3. *Vytvoření nového MkDocs projektu: Na serveru vytvoř nový projekt MkDocs pomocí tohoto příkazu:*
+3. **Vytvoření nového MkDocs projektu: Na serveru vytvoř nový projekt MkDocs pomocí tohoto příkazu:**
 
 ```bash
 mkdocs new mysite
 ```
-4. *Nahrání souborů: Nahrávej soubory projektu do kořenového adresáře LAMP aplikace pomocí FTP nebo SCP.*
+4. **Nahrání souborů: Nahrávej soubory projektu do kořenového adresáře LAMP aplikace pomocí FTP nebo SCP.**
 
-5. *Spuštění MkDocs serveru: Na serveru spusť MkDocs příkazem:*
+5. **Spuštění MkDocs serveru: Na serveru spusť MkDocs příkazem:**
 
 ```bash
 mkdocs serve
 ```
 Dokumentace bude dostupná na veřejné URL, kterou LAMP aplikace poskytuje.
+
 ## Nasazení na OSCloud pomocí Surfer
 
-1. *Lokální příprava souborů: Vygeneruj statické soubory pro MkDocs příkazem:*
+1. **Lokální příprava souborů: Vygeneruj statické soubory pro MkDocs příkazem:**
 
 ```bash
 mkdocs build
 ```
 Tím se vytvoří složka `site`, která obsahuje všechny statické soubory tvé dokumentace.
 
-2. *Nahrání na Surfer: Přihlas se do administrace OSCloud a otevři aplikaci Surfer.*
+2. **Nahrání na Surfer: Přihlas se do administrace OSCloud a otevři aplikaci Surfer.**
 
-3. *Nahrání souborů přes rozhraní Surferu: Nahraj obsah složky site (statické soubory vygenerované příkazem mkdocs build) přímo do Surferu pomocí rozhraní nebo přes FTP/SCP.*
+3. **Nahrání souborů přes rozhraní Surferu: Nahraj obsah složky site (statické soubory vygenerované příkazem mkdocs build) přímo do Surferu pomocí rozhraní nebo přes FTP/SCP.**
 
 Dokumentace online: Jakmile jsou soubory nahrané, dokumentace bude okamžitě dostupná na veřejné URL adrese Surfer aplikace.
+
 ### Přispívání
 
 Neváhejte nahlásit problémy nebo přispívat úpravami a vylepšeními do dokumentace prostřednictvím pull requestů.
