@@ -15,7 +15,6 @@ Tento repozitář obsahuje dokumentaci a návody pro platformu OSCloud, využív
 ```
 2. **Vytvoření a aktivace virtuálního prostředí: Nejprve vytvoř virtuální prostředí a aktivuj ho**
 ```bash
-mkdir mkdocs
 python -m venv venv
 source venv/bin/activate
 ```
