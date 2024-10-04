@@ -51,7 +51,20 @@ mkdocs new mysite
 mkdocs serve
 ```
 Dokumentace bude dostupná na veřejné URL, kterou LAMP aplikace poskytuje.
+## Nasazení na OSCloud pomocí Surfer
 
+1. *Lokální příprava souborů: Vygeneruj statické soubory pro MkDocs příkazem:*
+
+```bash
+mkdocs build
+```
+Tím se vytvoří složka `site`, která obsahuje všechny statické soubory tvé dokumentace.
+
+2. *Nahrání na Surfer: Přihlas se do administrace OSCloud a otevři aplikaci Surfer.*
+
+3. *Nahrání souborů přes rozhraní Surferu: Nahraj obsah složky site (statické soubory vygenerované příkazem mkdocs build) přímo do Surferu pomocí rozhraní nebo přes FTP/SCP.*
+
+Dokumentace online: Jakmile jsou soubory nahrané, dokumentace bude okamžitě dostupná na veřejné URL adrese Surfer aplikace.
 ### Přispívání
 
 Neváhejte nahlásit problémy nebo přispívat úpravami a vylepšeními do dokumentace prostřednictvím pull requestů.
