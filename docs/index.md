@@ -1,17 +1,13 @@
-# Welcome to MkDocs
+# Vítejte v dokumentaci OSCloud
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Tato dokumentace vám poskytne veškeré potřebné informace a návody, jak používat a spravovat služby na OSCloud.
 
-## Commands
+## Obsah dokumentace
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+- [První kroky](first-steps.md)
+- [Konfigurace serveru](server-setup.md)
+- [Nasazení aplikací](app-deployment.md)
 
-## Project layout
+## O projektu
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Projekt OSCloud je zaměřen na poskytování open-source řešení pro hosting a správu aplikací.
