@@ -13,22 +13,36 @@ Tento repozitář obsahuje dokumentaci a návody pro platformu OSCloud, využív
  ```bash
  git clone https://gitea.oscloud.cz/tvůj-uživatel/oscloud-docs.git
 ```
-
-2. **Instalace MkDocs:**
+2. **Vytvoření a aktivace virtuálního prostředí: Nejprve vytvoř virtuální prostředí a aktivuj ho**
+```bash
+python -m venv venv
+source venv/bin/activate
+```
+3. **Instalace MkDocs:**
 
 ```bash
 pip install mkdocs
 ```
-3. **Spuštění lokálně: Použij tento příkaz k spuštění MkDocs serveru a prohlížení dokumentace lokálně:**
+4. **Spuštění lokálně: Použij tento příkaz k spuštění MkDocs serveru a prohlížení dokumentace lokálně:**
 
 ```bash
 mkdocs serve
 ```
-4. **Vytvoření statických souborů: K vygenerování statických souborů pro nasazení:**
+5. **Vytvoření statických souborů: K vygenerování statických souborů pro nasazení:**
 
 ```bash
 mkdocs build
 ```
+6. **Aktivuj virtuální prostředí**
+Pokud chceš spustit lokální server MkDocs, nejprve aktivuj virtuální prostředí (pokud jsi ho již vytvořil):
+```bash
+source /home/archos/mkdocs/venv/bin/activate
+```
+7. **Deaktivace virtuálního prostředí: Po skončení práce vypni virtuální prostředí příkazem:**
+```bash
+deactivate
+```
+
 ## Nasazení na OSCloud pomocí LAMP
 
 1. **Přístup k LAMP serveru na OSCloud: Přihlas se do LAMP aplikace přes administraci na adrese `my.oscloud.cz` a otevři terminál pro danou aplikaci.**
