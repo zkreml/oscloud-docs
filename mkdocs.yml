@@ -1,7 +1,7 @@
 site_name: Oscloud Docs
-site_description: 'Ocloud je váš osobní cloud a hosting webových apliakcí.'
+site_description: 'Ocloud je váš osobní cloud a hosting webových aplikací.'
 site_url: 'https://docs.oscloud.cz'
-copyright: 'Copyright &copy; 2024 Osclud CZ'
+copyright: 'Copyright &copy; 2024 Oscloud CZ'
 nav:
   - Introduction: 'index.md'
   - Installation:
