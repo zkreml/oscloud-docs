@@ -1,1 +1,325 @@
-site_name: OSCloud Dokumentace
+site_name: Oscloud Docs
+site_description: 'Ocloud je váš osobní cloud a hosting webových apliakcí.'
+site_url: 'https://docs.oscloud.cz'
+copyright: 'Copyright &copy; 2024 Osclud CZ'
+nav:
+  - Introduction: 'index.md'
+  - Installation:
+    - 'Installation': installation/index.md
+    - 'Home Server': installation/home-server.md
+    - 'Intranet': installation/intranet.md
+  - 'Support':
+    - troubleshooting.md
+    - 'Contact Us': support.md
+  - 'Knowledge Base':
+    - apps.md
+    - 'App Store': appstore.md
+    - 'Backups': backups.md
+    - branding.md
+    - certificates.md
+    - dashboard.md
+    - domains.md
+    - email.md
+    - networking.md
+    - notifications.md
+    - profile.md
+    - security.md
+    - services.md
+    - settings.md
+    - storage.md
+    - system.md
+    - updates.md
+    - 'Users & Groups': user-management.md
+    - 'User Directory': user-directory.md
+    - volumes.md
+  - Guides:
+    - 'Connect to MongoDB': guides/connect-mongodb.md
+    - 'Connect to MySQL': guides/connect-mysql.md
+    - 'Connect to PostgreSQL': guides/connect-postgresql.md
+    - 'Decrypt Backups': guides/decrypt-backups.md
+    - 'Download Backups': guides/download-backups.md
+    - 'Import Email': guides/import-email.md
+    - 'Import Mongodb': guides/import-mongodb.md
+    - 'Import MySQL': guides/import-mysql.md
+    - 'Import PostgresSQL': guides/import-postgresql.md
+    - 'Import Redis': guides/import-redis.md
+    - 'Laravel in LAMP app': guides/lamp-laravel.md
+    - 'Load Large Data into MySQL (INFILE)': guides/load-large-data-mysql.md
+    - 'Migrate WordPress': guides/migrate-wordpress.md
+    - 'Mailbox Sharing': guides/mailbox-sharing.md
+    - 'NFS Share': guides/nfs-share.md
+    - 'Multiple databases with LAMP app': guides/multiple-databases-lamp.md
+    - 'SSH Tunnel': guides/ssh-tunnel.md
+    - 'Upgrade PHP in LAMP app': guides/upgrade-php-lamp.md
+    - 'Upgrading to Ubuntu 18.04': guides/upgrade-ubuntu-18.md
+    - 'Upgrading to Ubuntu 20.04': guides/upgrade-ubuntu-20.md
+    - 'Upgrading to Ubuntu 22.04': guides/upgrade-ubuntu-22.md
+    - 'Upgrading to Ubuntu 24.04': guides/upgrade-ubuntu-24.md
+  - 'Community Guides':
+      - 'Overview': guides/community/index.md
+      - 'Remote Backup with Restic & rclone' : guides/community/restic-rclone.md
+      - 'Running Firefly-III Importer': guides/community/firefly-iii-importer.md
+      - 'SMTP Relay Configuration': guides/community/smtp-relay-configuration.md
+      - 'Monitoring and Alerting': guides/community/netdata-monitoring.md
+      - 'Automatic update of blocklists': guides/community/blocklist-updates.md
+  - Apps:
+    - '2FAuth': apps/2fauth.md
+    - 'Ackee': apps/ackee.md
+    - 'Actual': apps/actual.md
+    - 'AdGuard Home': apps/adguard-home.md
+    - 'Alltube': apps/alltube.md
+    - 'Ampache': apps/ampache.md
+    - 'Apache Answer': apps/apache-answer.md
+    - 'ArchiveBox': apps/archivebox.md
+    - 'Astral': apps/astral.md
+    - 'Audiobookshelf': apps/audiobookshelf.md
+    - 'AzuraCast': apps/azuracast.md
+    - 'Baserow': apps/baserow.md
+    - 'BookStack': apps/bookstack.md
+    - 'Build Service': apps/build-service.md
+    - 'Cal.com': apps/calcom.md
+    - 'Calibre Web': apps/calibre-web.md
+    - 'Castopod': apps/castopod.md
+    - 'Change Detection': apps/changedetection.md
+    - 'Chatwoot': apps/chatwoot.md
+    - 'Collabora Online': apps/collabora.md
+    - 'Comentario': apps/comentario.md
+    - 'Commento': apps/commento.md
+    - 'Confluence': apps/confluence.md
+    - 'CouchPotato': apps/couchpotato.md
+    - 'CryptPad': apps/cryptpad.md
+    - 'Cubby': apps/cubby.md
+    - 'Directus': apps/directus.md
+    - 'Discourse': apps/discourse.md
+    - 'Docker Registry': apps/docker-registry.md
+    - 'Documenso': apps/documenso.md
+    - 'Documize': apps/documize.md
+    - 'DocuSeal': apps/docuseal.md
+    - 'Dokuwiki': apps/dokuwiki.md
+    - 'Dolibarr': apps/dolibarr.md
+    - 'EasyAppointments': apps/easyappointments.md
+    - 'Element': apps/element.md
+    - 'Emby': apps/emby.md
+    - 'EspoCRM': apps/espocrm.md
+    - 'Etherpad': apps/etherpad.md
+    - 'evcc': apps/evcc.md
+    - 'FilePizza': apps/filepizza.md
+    - 'Firefly-III': apps/firefly-iii.md
+    - 'FreeScout': apps/freescout.md
+    - 'FreshRSS': apps/freshrss.md
+    - 'GeoIP': apps/geoip.md
+    - 'Ghost': apps/ghost.md
+    - 'Gitea': apps/gitea.md
+    - 'GitHub Pages': apps/githubpages.md
+    - 'GitLab': apps/gitlab.md
+    - 'Gogs': apps/gogs.md
+    - 'Grafana': apps/grafana.md
+    - 'Grav': apps/grav.md
+    - 'Greenlight': apps/greenlight.md
+    - 'Guacamole': apps/guacamole.md
+    - 'Hastebin': apps/hastebin.md
+    - 'HedgeDoc': apps/hedgedoc.md
+    - 'HumHub': apps/humhub.md
+    - 'Immich': apps/immich.md
+    - 'Invidious': apps/invidious.md
+    - 'Invoice Ninja 5': apps/invoiceninja.md
+    - 'IT-Tools': apps/it-tools.md
+    - 'Jellyfin': apps/jellyfin.md
+    - 'Jingo': apps/jingo.md
+    - 'Jirafeau': apps/jirafeau.md
+    - 'Jitsi': apps/jitsi.md
+    - 'Joplin Server': apps/joplin-server.md
+    - 'JupyterHub': apps/jupyterhub.md
+    - 'Kanboard': apps/kanboard.md
+    - 'Kavita': apps/kavita.md
+    - 'Kimai': apps/kimai.md
+    - 'Koel': apps/koel.md
+    - 'Kopano Meet': apps/kopano-meet.md
+    - 'Kutt': apps/kutt.md
+    - 'LAMP': apps/lamp.md
+    - 'LanguageTool': apps/languagetool.md
+    - 'Leantime': apps/leantime.md
+    - 'LibreTranslate': apps/libretranslate.md
+    - 'LimeSurvey': apps/limesurvey.md
+    - 'Linkding': apps/linkding.md
+    - 'Linkwarden': apps/linkwarden.md
+    - 'Listmonk': apps/listmonk.md
+    - 'Loomio': apps/loomio.md
+    - 'Lychee': apps/lychee.md
+    - 'Mailtrain': apps/mailtrain.md
+    - 'Mastodon': apps/mastodon.md
+    - 'Matomo': apps/matomo.md
+    - 'Mattermost': apps/mattermost.md
+    - 'Mautic': apps/mautic.md
+    - 'Mealie': apps/mealie.md
+    - 'Mediawiki': apps/mediawiki.md
+    - 'Meemo': apps/meemo.md
+    - 'Metabase': apps/metabase.md
+    - 'Minecraft': apps/minecraft.md
+    - 'Miniflux': apps/miniflux.md
+    - 'Minio': apps/minio.md
+    - 'MiroTalk': apps/mirotalk.md
+    - 'Monica': apps/monica.md
+    - 'Moodle': apps/moodle.md
+    - 'Navidrome': apps/navidrome.md
+    - 'Nextcloud': apps/nextcloud.md
+    - 'n8n': apps/n8n.md
+    - 'NocoDB': apps/nocodb.md
+    - 'NodeBB': apps/nodebb.md
+    - 'ntfy': apps/ntfy.md
+    - 'OmekaS': apps/omekas.md
+    - 'ONLYOFFICE': apps/onlyoffice.md
+    - 'OpenHAB': apps/openhab.md
+    - 'OpenProject': apps/openproject.md
+    - 'OpenWebUI': apps/openwebui.md
+    - 'OpenVPN': apps/openvpn.md
+    - 'Open Web Calendar': apps/openwebcalendar.md
+    - 'osTicket': apps/osticket.md
+    - 'Outline': apps/outline.md
+    - 'Owncast': apps/owncast.md
+    - 'ownCloud': apps/owncloud.md
+    - 'PairDrop': apps/pairdrop.md
+    - 'Paperless-ngx': apps/paperless-ngx.md
+    - 'Peertube': apps/peertube.md
+    - 'Penpot': apps/penpot.md
+    - 'Phabricator': apps/phabricator.md
+    - 'PHP Server Monitor': apps/php-server-monitor.md
+    - 'Piwigo': apps/piwigo.md
+    - 'Pixelfed': apps/pixelfed.md
+    - 'PocketBase': apps/pocketbase.md
+    - 'Prometheus': apps/prometheus.md
+    - 'PrivateBin': apps/privatebin.md
+    - 'qBittorrent': apps/qbittorrent.md
+    - 'Radicale': apps/radicale.md
+    - 'RainLoop': apps/rainloop.md
+    - 'Redash': apps/redash.md
+    - 'Rallly': apps/rallly.md
+    - 'Redmine': apps/redmine.md
+    - 'Releasebell': apps/releasebell.md
+    - 'Rocket.Chat': apps/rocket.chat.md
+    - 'Roundcube': apps/roundcube.md
+    - 'RSS Bridge': apps/rss-bridge.md
+    - 'Scrumblr': apps/scrumblr.md
+    - 'SearXNG': apps/searxng.md
+    - 'SerpBear': apps/serpbear.md
+    - 'Shaarli': apps/shaarli.md
+    - 'Shiori': apps/shiori.md
+    - 'SickChill': apps/sickchill.md
+    - 'Simple Torrent': apps/simple-torrent.md
+    - 'SnappyMail': apps/snappymail.md
+    - 'Snipe-IT': apps/snipe-it.md
+    - 'SOGo': apps/sogo.md
+    - 'Statping': apps/statping.md
+    - 'Stirling-PDF': apps/stirling-pdf.md
+    - 'Superset': apps/superset.md
+    - 'Surfer': apps/surfer.md
+    - 'Synapse': apps/synapse.md
+    - 'Syncthing': apps/syncthing.md
+    - 'Taiga': apps/taiga.md
+    - 'Tandoor': apps/tandoor.md
+    - 'TeamSpeak': apps/teamspeak.md
+    - 'Teddit': apps/teddit.md
+    - 'The Lounge': apps/thelounge.md
+    - 'TLDraw': apps/tldraw.md
+    - 'TinyTinyRSS': apps/tinytinyrss.md
+    - 'Traccar': apps/traccar.md
+    - 'Transmission': apps/transmission.md
+    - 'Trilium': apps/trilium.md
+    - 'Typebot': apps/typebot.md
+    - 'Umami': apps/umami.md
+    - 'Uptime Kuma': apps/uptime-kuma.md
+    - 'Valheim': apps/valheim.md
+    - 'Vault': apps/vault.md
+    - 'Vaultwarden': apps/vaultwarden.md
+    - 'Verdaccio': apps/verdaccio.md
+    - 'Vikunja': apps/vikunja.md
+    - 'Wallabag': apps/wallabag.md
+    - 'WBO': apps/wbo.md
+    - 'Weblate': apps/weblate.md
+    - 'Wekan': apps/wekan.md
+    - 'Wikijs': apps/wikijs.md
+    - 'Woodpecker': apps/woodpecker.md
+    - 'WordPress (Developer)': apps/wordpress-developer.md
+    - 'WordPress (Managed)': apps/wordpress-managed.md
+    - 'XBackBone': apps/xbackbone.md
+    - 'YOURLS': apps/yourls.md
+  - 'Packaging Apps':
+    - 'CLI': packaging/cli.md
+    - 'Tutorial': packaging/tutorial.md
+    - 'Cheat Sheet': packaging/cheat-sheet.md
+    - 'Addons': packaging/addons.md
+    - 'Manifest': packaging/manifest.md
+    - 'Publishing': packaging/publishing.md
+  - 'API': /api.html
+  - 'Internationalization': i18n.md
+  - 'Billing': 'billing.md'
+extra_css:
+  - 'styly/extra.css'
+extra_javascript:
+  - 'javascripts/extra.js'
+theme:
+  name: 'material'
+  language: 'en'
+  logo: 'img/logo_small.svg'
+  homepage: 'https://cloudron.io'
+  favicon: 'img/favicon.ico'
+  font: false
+  features:
+    - search.suggest
+    - navigation.indexes
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: 'white'
+      accent: 'light blue'
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: 'black'
+      accent: 'light blue'
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+extra:
+  search:
+    tokenizer: '[\s\-]+'
+  social:
+    - icon: fontawesome/brands/gitlab
+      link: 'https://git.cloudron.io'
+    - icon: fontawesome/brands/mastodon
+      link: 'https://social.cloudron.io/@cloudron'
+    - icon: fontawesome/regular/comments
+      link: 'https://forum.cloudron.io'
+use_directory_urls: true
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc
+  - footnotes
+  - meta
+  - pymdownx.magiclink
+plugins:
+  #  - social:
+  #    cards: true
+  - search:
+      lang: en
+  - redirects:
+      redirect_maps:
+        'apps/paperless-ng.md': 'apps/paperless-ngx.md'
+        'custom-apps/guide.md': 'packaging/cheat-sheet.md'
+        'custom-apps/cli.md': 'packaging/cli.md'
+        'custom-apps/tutorial.md': 'packaging/tutorial.md'
+        'custom-apps/addons.md': 'packaging/addons.md'
+        'custom-apps/manifest.md': 'packaging/manifest.md'
+
