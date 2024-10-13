@@ -3,14 +3,10 @@ site_description: 'Ocloud je váš osobní cloud a hosting webových aplikací.'
 site_url: 'https://docs.oscloud.cz'
 copyright: 'Copyright &copy; 2024 Oscloud CZ'
 nav:
-  - Introduction: 'index.md'
-  - Installation:
-    - 'Installation': installation/index.md
-    - 'Home Server': installation/home-server.md
-    - 'Intranet': installation/intranet.md
-  - 'Support':
-    - troubleshooting.md
-    - 'Contact Us': support.md
+  - Úvodní stránka: 'index.md'
+  - 'Podpora a kontakty':
+    - 'Podpora': support.md
+    - 'Kontaktujte nás': contact.md
   - 'Knowledge Base':
     - apps.md
     - 'App Store': appstore.md
@@ -261,7 +257,7 @@ theme:
   name: 'material'
   language: 'en'
   logo: 'img/logo_small.svg'
-  homepage: 'https://cloudron.io'
+  homepage: 'https://weboscloud.cz'
   favicon: 'img/favicon.ico'
   font: false
   features:
@@ -295,12 +291,12 @@ extra:
   search:
     tokenizer: '[\s\-]+'
   social:
-    - icon: fontawesome/brands/gitlab
-      link: 'https://git.cloudron.io'
+    - icon: fontawesome/brands/git
+      link: 'https://git.arch-linux.cz/Oscloud'
     - icon: fontawesome/brands/mastodon
-      link: 'https://social.cloudron.io/@cloudron'
+      link: 'https://mamutovo.cz/@oscloud'
     - icon: fontawesome/regular/comments
-      link: 'https://forum.cloudron.io'
+      link: 'https://matrix.to/#/!nnrBXdWbSiXkfiYtWR:mxchat.cz?via=mxchat.cz'
 use_directory_urls: true
 markdown_extensions:
   - admonition
