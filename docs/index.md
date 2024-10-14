@@ -3,6 +3,11 @@
 
 Projekt OSCloud poskytuje otevřenou platformu pro hosting a správu aplikací, která je navržena tak, aby byla dostupná a snadno použitelná pro širokou škálu uživatelů, od začátečníků až po pokročilé administrátory.
 
+<center>
+<img src="/img/oscloud.png" class="shadow" width="500px">
+</center>
+
+
 Cílem OSCloud je zjednodušit nasazení a správu open-source aplikací na vlastních serverech, což uživatelům umožňuje plnou kontrolu nad jejich daty a soukromím. Všechny aplikace dostupné na OSCloud jsou open-source, což znamená, že každý uživatel má přístup ke zdrojovému kódu a může aplikace přizpůsobit podle svých potřeb.
 ## Klíčové funkce OSCloud:
 

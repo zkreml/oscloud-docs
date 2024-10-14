@@ -240,7 +240,7 @@ extra_javascript:
 theme:
   name: 'material'
   language: 'en'
-  logo: 'img/logo_small.svg'
+  logo: 'img/logo.png'
   homepage: 'https://weboscloud.cz'
   favicon: 'img/favicon.ico'
   font: false
