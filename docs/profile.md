@@ -1,8 +1,12 @@
 # Profil
 
-**Nastavení účtu**
+## Nastavení účtu
 
 Uživatelé si mohou prohlížet a upravovat své osobní údaje v sekci **Profil**:
+
+<center>
+<img src="/img/profile-account.png" class="shadow" width="500px">
+</center>
 
 ## Uživatelské jméno
 

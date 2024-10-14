@@ -7,11 +7,11 @@ nav:
   - 'Podpora a kontakty':
     - 'Podpora': support.md
     - 'Kontaktujte nás': contact.md
-  - 'Knowledge Base':
-   - 'Backups': backups.md
-    - certificates.md
-    - profile.md
-    - security.md
+  - 'Znalostní báze':
+      - 'Zálohy': backups.md
+      - 'Certificates': certificates.md
+      - 'Profil': profile.md
+      - 'Security': security.md
   - Guides:
     - 'Connect to MongoDB': guides/connect-mongodb.md
     - 'Connect to MySQL': guides/connect-mysql.md
