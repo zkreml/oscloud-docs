@@ -8,7 +8,7 @@ nav:
     - 'Podpora': support.md
     - 'Kontaktujte nás': contact.md
   - 'Znalostní báze':
-      - 'Certificates': certificates.md
+      - 'Certifikáty': certificates.md
       - 'Profil': profile.md
       - 'Security': security.md
       - 'Zálohy': backups.md
