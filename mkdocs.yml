@@ -8,10 +8,10 @@ nav:
     - 'Podpora': support.md
     - 'Kontaktujte nás': contact.md
   - 'Znalostní báze':
-      - 'Zálohy': backups.md
       - 'Certificates': certificates.md
       - 'Profil': profile.md
       - 'Security': security.md
+      - 'Zálohy': backups.md
   - Guides:
     - 'Connect to MongoDB': guides/connect-mongodb.md
     - 'Connect to MySQL': guides/connect-mysql.md
