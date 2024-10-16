@@ -34,6 +34,10 @@ E-mail pro obnovu hesla nelze změnit, pokud správce uzamkl profily uživatelů
 
 Ikonu profilu nebo gravatar uživatele lze změnit kliknutím na ikonu profilu.
 
+<center>
+<img src="/img/profile_avatar.png" class="shadow" width="500px">
+</center>
+
 ## Obrázek na pozadí
 
 Obrázek na pozadí pro dashboard lze nastavit pomocí tlačítka **Nastavit obrázek na pozadí**. Po nastavení bude dashboard mít vlastní pozadí.
