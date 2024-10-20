@@ -115,12 +115,3 @@ plugins:
   #    cards: true
   - search:
       lang: en
-  - redirects:
-      redirect_maps:
-        'apps/paperless-ng.md': 'apps/paperless-ngx.md'
-        'custom-apps/guide.md': 'packaging/cheat-sheet.md'
-        'custom-apps/cli.md': 'packaging/cli.md'
-        'custom-apps/tutorial.md': 'packaging/tutorial.md'
-        'custom-apps/addons.md': 'packaging/addons.md'
-        'custom-apps/manifest.md': 'packaging/manifest.md'
-
