@@ -1,3 +1,5 @@
+# <img src="/img/mirotalk-logo.png" width="25px"> MiroTalk App
+
 # MiroTalk na OSCloud: Rychlý průvodce
 
 MiroTalk je výborná platforma pro týmovou spolupráci a komunikaci, ideální jako moderní alternativa ke službám, jako je TeamSpeak. Umožňuje snadné videohovory přímo z prohlížeče, bez potřeby instalovat další aplikace. MiroTalk najdeš na adrese: [https://talk.oscloud.cz](https://talk.oscloud.cz).
