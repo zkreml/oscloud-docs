@@ -8,11 +8,11 @@ nav:
     - 'Podpora': support.md
     - 'Kontaktujte nás': contact.md
   - 'Znalostní báze':
+    - 'App': apps.md  
     - 'Certifikáty': certificates.md
     - 'Profil': profile.md
     - 'Security': security.md
     - 'Zálohy': backups.md
-
   - Aplikace:
     - '2FAuth': apps/2fauth.md
     - 'BookStack': apps/bookstack.md
