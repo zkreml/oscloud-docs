@@ -187,8 +187,8 @@ Některé aplikace, jako WordPress, LAMP, Surfer, podporují přístup k datům 
 
 SFTP klient, jako je například [FileZilla](https://filezilla-project.org/), lze použít k připojení následovně:
 
-* `Host` - `sftp://my.cloudron.space` (hostitel je stejný pro přístup SFTP ke všem aplikacím)
-* `Username` - `girish@lamp.cloudron.space` (uživatelské jméno je specifické pro každou aplikaci)
+* `Host` - `sftp://my.osclud.cz` (hostitel je stejný pro přístup SFTP ke všem aplikacím)
+* `Username` - `osclod@lamp.oscloud.cz` (uživatelské jméno je specifické pro každou aplikaci)
 * `Password` - heslo do OSCloud (stejné heslo pro přístup SFTP ke všem aplikacím)
 * `Port` - 222
 
