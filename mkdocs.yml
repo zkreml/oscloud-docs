@@ -30,17 +30,16 @@ nav:
     - 'Linkding': apps/linkding.md
     - 'Lychee': apps/lychee.md
     - 'Mastodon': apps/mastodon.md
-    - 'Mediawiki': apps/mediawiki.md
     - 'Miniflux': apps/miniflux.md
     - 'MiroTalk': apps/mirotalk.md
     - 'Navidrome': apps/navidrome.md
     - 'Nextcloud': apps/nextcloud.md
-    - 'NodeBB': apps/nodebb.md
     - 'ntfy': apps/ntfy.md
     - 'PairDrop': apps/pairdrop.md
     - 'Peertube': apps/peertube.md
     - 'Piwigo': apps/piwigo.md
     - 'Pixelfed': apps/pixelfed.md
+    - 'PrivateBin': apps/privatebin.md
     - 'Rallly': apps/rallly.md
     - 'Roundcube': apps/roundcube.md
     - 'SearXNG': apps/searxng.md
