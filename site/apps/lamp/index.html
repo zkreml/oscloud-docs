@@ -1,0 +1,2423 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Oscloud je váš osobní cloud a hosting webových aplikací.">
+      
+      
+      
+        <link rel="canonical" href="https://docs.oscloud.cz/apps/lamp/">
+      
+      
+        <link rel="prev" href="../cryptpad/">
+      
+      
+        <link rel="next" href="../mastodon/">
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.39">
+    
+    
+      
+        <title>LAMP - Oscloud Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.8c3ca2c6.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="../../styly/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#lamp-aplikace" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Oscloud Docs" class="md-header__button md-logo" aria-label="Oscloud Docs" data-md-component="logo">
+      
+  <img src="../../img/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Oscloud Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              LAMP
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="light-blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="light-blue"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Oscloud Docs" class="md-nav__button md-logo" aria-label="Oscloud Docs" data-md-component="logo">
+      
+  <img src="../../img/logo.png" alt="logo">
+
+    </a>
+    Oscloud Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Úvodní stránka
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Podpora a kontakty
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Podpora a kontakty
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../support/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Podpora
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kontaktujte nás
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Znalostní báze
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Znalostní báze
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    App
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../certificates/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Certifikáty
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../profile/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Profil
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../security/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Security
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../backups/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Zálohy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Aplikace
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Aplikace
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2fauth.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2FAuth
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bookstack.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    BookStack
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../castopod.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Castopod
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cryptpad/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CryptPad
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../discourse.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Discourse
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dokuwiki.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dokuwiki
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gitea.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gitea
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../githubpages.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GitHub Pages
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gogs.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gogs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hedgedoc.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    HedgeDoc
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../immich.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Immich
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../joplin-server.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Joplin Server
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    LAMP
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    LAMP
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#o-aplikaci" class="md-nav__link">
+    <span class="md-ellipsis">
+      O aplikaci
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#podporovane-verze-php" class="md-nav__link">
+    <span class="md-ellipsis">
+      Podporované verze PHP
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nahravani-souboru" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nahrávání souborů
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Nahrávání souborů">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sftp" class="md-nav__link">
+    <span class="md-ellipsis">
+      SFTP
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nastaveni-php" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nastavení PHP
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nastaveni-apache" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nastavení Apache
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vlastni-http-hlavicky" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vlastní HTTP hlavičky
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#php-rozsireni" class="md-nav__link">
+    <span class="md-ellipsis">
+      PHP rozšíření
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instalace-vlastnich-php-rozsireni" class="md-nav__link">
+    <span class="md-ellipsis">
+      Instalace vlastních PHP rozšíření
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Instalace vlastních PHP rozšíření">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#krok-1-stazeni-rozsireni" class="md-nav__link">
+    <span class="md-ellipsis">
+      Krok 1: Stažení rozšíření
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#krok-2-nahrani-pomoci-sftp" class="md-nav__link">
+    <span class="md-ellipsis">
+      Krok 2: Nahrání pomocí SFTP
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#krok-3-povoleni-rozsireni" class="md-nav__link">
+    <span class="md-ellipsis">
+      Krok 3: Povolení rozšíření
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#krok-4-restart-aplikace" class="md-nav__link">
+    <span class="md-ellipsis">
+      Krok 4: Restart aplikace
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#krok-5-overeni-instalace" class="md-nav__link">
+    <span class="md-ellipsis">
+      Krok 5: Ověření instalace
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#konfigurace-mysql" class="md-nav__link">
+    <span class="md-ellipsis">
+      Konfigurace MySQL
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Konfigurace MySQL">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prizpusobeni-mysql" class="md-nav__link">
+    <span class="md-ellipsis">
+      Přizpůsobení MySQL
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#phpmyadmin" class="md-nav__link">
+    <span class="md-ellipsis">
+      phpMyAdmin
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deaktivace-phpmyadmin" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deaktivace phpMyAdmin
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#email" class="md-nav__link">
+    <span class="md-ellipsis">
+      Email
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#redis" class="md-nav__link">
+    <span class="md-ellipsis">
+      Redis
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ldap" class="md-nav__link">
+    <span class="md-ellipsis">
+      LDAP
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vlastni-startovaci-skript" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vlastní startovací skript
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#composer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Composer
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#laravel" class="md-nav__link">
+    <span class="md-ellipsis">
+      Laravel
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kontrola-stavu" class="md-nav__link">
+    <span class="md-ellipsis">
+      Kontrola stavu
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../linkding.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Linkding
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lychee.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lychee
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mastodon/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mastodon
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../miniflux.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Miniflux
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mirotalk/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MiroTalk
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../navidrome.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Navidrome
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nextcloud.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Nextcloud
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ntfy.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ntfy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pairdrop/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PairDrop
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../peertube.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Peertube
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../piwigo.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Piwigo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pixelfed.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pixelfed
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../privatebin/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PrivateBin
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rallly.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Rallly
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../roundcube.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Roundcube
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../searxng/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SearXNG
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../surfer/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Surfer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tinytinyrss.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TinyTinyRSS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../umami.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Umami
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vaultwarden/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Vaultwarden
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vikunja.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Vikunja
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wordpress-developer.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    WordPress (Developer)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wordpress-managed.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    WordPress (Managed)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Ceny
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Ceny
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../podporte-nas.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Jak nás podpořit
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#o-aplikaci" class="md-nav__link">
+    <span class="md-ellipsis">
+      O aplikaci
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#podporovane-verze-php" class="md-nav__link">
+    <span class="md-ellipsis">
+      Podporované verze PHP
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nahravani-souboru" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nahrávání souborů
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Nahrávání souborů">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sftp" class="md-nav__link">
+    <span class="md-ellipsis">
+      SFTP
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nastaveni-php" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nastavení PHP
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nastaveni-apache" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nastavení Apache
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vlastni-http-hlavicky" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vlastní HTTP hlavičky
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#php-rozsireni" class="md-nav__link">
+    <span class="md-ellipsis">
+      PHP rozšíření
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instalace-vlastnich-php-rozsireni" class="md-nav__link">
+    <span class="md-ellipsis">
+      Instalace vlastních PHP rozšíření
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Instalace vlastních PHP rozšíření">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#krok-1-stazeni-rozsireni" class="md-nav__link">
+    <span class="md-ellipsis">
+      Krok 1: Stažení rozšíření
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#krok-2-nahrani-pomoci-sftp" class="md-nav__link">
+    <span class="md-ellipsis">
+      Krok 2: Nahrání pomocí SFTP
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#krok-3-povoleni-rozsireni" class="md-nav__link">
+    <span class="md-ellipsis">
+      Krok 3: Povolení rozšíření
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#krok-4-restart-aplikace" class="md-nav__link">
+    <span class="md-ellipsis">
+      Krok 4: Restart aplikace
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#krok-5-overeni-instalace" class="md-nav__link">
+    <span class="md-ellipsis">
+      Krok 5: Ověření instalace
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#konfigurace-mysql" class="md-nav__link">
+    <span class="md-ellipsis">
+      Konfigurace MySQL
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Konfigurace MySQL">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prizpusobeni-mysql" class="md-nav__link">
+    <span class="md-ellipsis">
+      Přizpůsobení MySQL
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#phpmyadmin" class="md-nav__link">
+    <span class="md-ellipsis">
+      phpMyAdmin
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deaktivace-phpmyadmin" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deaktivace phpMyAdmin
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#email" class="md-nav__link">
+    <span class="md-ellipsis">
+      Email
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#redis" class="md-nav__link">
+    <span class="md-ellipsis">
+      Redis
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ldap" class="md-nav__link">
+    <span class="md-ellipsis">
+      LDAP
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vlastni-startovaci-skript" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vlastní startovací skript
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#composer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Composer
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#laravel" class="md-nav__link">
+    <span class="md-ellipsis">
+      Laravel
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kontrola-stavu" class="md-nav__link">
+    <span class="md-ellipsis">
+      Kontrola stavu
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="lamp-aplikace"><img src="/img/lamp-logo.png" width="25px"> LAMP Aplikace</h1>
+<h2 id="o-aplikaci">O aplikaci</h2>
+<p>Provozování LAMP aplikací na OSCloud není odlišné od toho, co je dostupné na mnoha hostingových poskytovatelích. Svůj PHP kód můžete nahrát pomocí SFTP nebo pomocí <a href="/apps#file-manager">Správce souborů</a> a následně upravit soubory <code>.htaccess</code> a <code>php.ini</code> dle potřeby. Většina běžně používaných <a href="#php-rozšíření">PHP rozšíření</a> je předinstalována a nemusíte se starat o jejich aktualizaci.</p>
+<p>Hlavní výhody používání OSCloud k hostování LAMP aplikací jsou:</p>
+<ul>
+<li>Automatická konfigurace DNS, instalace a obnova SSL certifikátů Let's Encrypt.</li>
+<li>Možnost využívat MySQL, Redis a odesílat e-maily.</li>
+<li>Nemusíte se starat o zálohy aplikací a serveru, obnovení a aktualizace, protože o to se stará OSCloud.</li>
+<li>Provoz více LAMP aplikací, izolovaných od sebe, na stejném serveru.</li>
+</ul>
+<h2 id="podporovane-verze-php">Podporované verze PHP</h2>
+<p>Aplikace LAMP podporuje následující verze PHP:</p>
+<ul>
+<li>7.4</li>
+<li>8.0</li>
+<li>8.1</li>
+<li>8.2</li>
+<li>8.3 (výchozí)</li>
+</ul>
+<p>Chcete-li změnit verzi PHP, upravte soubor <code>/app/data/PHP_VERSION</code> pomocí <a href="/apps/#file-manager">Správce souborů</a> a restartujte aplikaci.</p>
+<div class="admonition warning">
+<p class="admonition-title">PHP CLI</p>
+<p>Binární soubor <code>php</code> je pevně nastaven na používání PHP 8.3. V případě skriptů použijte explicitně <code>php8.0</code>, <code>phar8.0</code> a podobně.</p>
+</div>
+<h2 id="nahravani-souboru">Nahrávání souborů</h2>
+<p>Soubory LAMP aplikace lze nahrát pomocí <a href="/apps/#file-manager">Správce souborů</a> nebo SFTP.</p>
+<h3 id="sftp">SFTP</h3>
+<p>Aplikace může být nahrána pomocí SFTP klienta, například <a href="https://filezilla-project.org/">FileZilla</a>.</p>
+<p>Přihlašovací údaje pro SFTP naleznete v nabídce "Dokumentace".</p>
+<p><center>
+<img src="/img/lamp-sftp-info.png" class="shadow" width="500px">
+</center></p>
+<p><center>
+<img src="/img/lamp-filezilla.png" class="shadow" width="500px">
+</center></p>
+<div class="admonition poznámka">
+<p class="admonition-title">SFTP přístup</p>
+<p>SFTP přístup pro neadministrátorské uživatele může být povolen pomocí role <a href="/apps/#operators">operátor</a>.</p>
+</div>
+<h2 id="nastaveni-php">Nastavení PHP</h2>
+<p>Vlastní <a href="http://php.net/manual/en/ini.core.php">nastavení PHP</a> lze přidat dvěma způsoby:</p>
+<ul>
+<li>Konfigurace Apache aplikace - <code>/app/data/apache/app.conf</code></li>
+<li>Pomocí htaccess - <code>/app/data/public/.htaccess</code></li>
+</ul>
+<p>Tyto soubory lze upravit pomocí <a href="/apps#file-manager">Správce souborů</a>. Nastavení s <a href="http://php.net/manual/en/configuration.changes.modes.php">módem</a> <code>PHP_INI_SYSTEM</code> nelze nastavit v htaccess souborech.</p>
+<p>Příklad konfigurace htaccess:</p>
+<div class="codehilite"><pre><span></span><code><span class="x">php_value post_max_size 600M</span>
+<span class="x">php_value upload_max_filesize 600M</span>
+<span class="x">php_value memory_limit 128M</span>
+<span class="x">php_value max_execution_time 300</span>
+<span class="x">php_value max_input_time 300</span>
+<span class="x">php_value session.gc_maxlifetime 1200</span>
+</code></pre></div>
+
+<h2 id="nastaveni-apache">Nastavení Apache</h2>
+<p>Vlastní nastavení <a href="https://httpd.apache.org/docs/current/howto/htaccess.html">Apache</a> lze přidat dvěma způsoby:</p>
+<ul>
+<li>Konfigurace Apache aplikace - /app/data/apache/app.conf</li>
+<li>Pomocí htaccess - /app/data/public/.htaccess</li>
+</ul>
+<p>Soubory výše lze upravit pomocí Správce souborů. Po provedení změn nezapomeňte aplikaci restartovat.</p>
+<p>Příklad konfigurace htaccess:</p>
+<div class="codehilite"><pre><span></span><code>ServerSignature<span class="w"> </span>Off
+</code></pre></div>
+
+<h2 id="vlastni-http-hlavicky">Vlastní HTTP hlavičky</h2>
+<p>Vlastní HTTP hlavičky lze nastavit v souboru <code>/app/data/public/.htaccess</code>. Modul apache mod_headers je již povolen. Podívejte se na tento článek pro více informací.</p>
+<h2 id="php-rozsireni">PHP rozšíření</h2>
+<p>Aplikace LAMP již obsahuje většinu populárních PHP rozšíření, včetně následujících:</p>
+<ul>
+<li>php-apcu</li>
+<li>php-cli</li>
+<li>php-curl</li>
+<li>php-fpm</li>
+<li>php-gd</li>
+<li>php-gmp</li>
+<li>php-imap</li>
+<li>php-intl</li>
+<li>php-json</li>
+<li>php-mbstring</li>
+<li>php-mcrypt</li>
+<li>php-mysql</li>
+<li>php-mysqlnd</li>
+<li>php-pgsql</li>
+<li>php-redis</li>
+<li>php-sqlite</li>
+<li>php-xml</li>
+<li>php-xmlrpc</li>
+<li>php-zip</li>
+</ul>
+<p>Kompletní seznam předinstalovaných rozšíření naleznete v defaultním souboru index.php aplikace, který vypíše <code>phpInfo()</code>.</p>
+<h2 id="instalace-vlastnich-php-rozsireni">Instalace vlastních PHP rozšíření</h2>
+<p>Aplikace LAMP podporuje instalaci vlastních PHP rozšíření. Jako příklad si nainstalujeme <a href="https://www.ioncube.com/">ionCube Loader</a>, který je často vyžadován pro instalaci komerčních PHP aplikací.</p>
+<p>!!! poznámka "ionCube je již nainstalován" Aplikace LAMP má vestavěnou podporu pro ionCube. Níže uvedené kroky jsou pouze příkladem.</p>
+<h3 id="krok-1-stazeni-rozsireni">Krok 1: Stažení rozšíření</h3>
+<p>Stáhněte a rozbalte balíčky ionCube pro Linux 64-bit (tar.gz nebo zip) z webu ionCube nebo použijte přímý odkaz.</p>
+<h3 id="krok-2-nahrani-pomoci-sftp">Krok 2: Nahrání pomocí SFTP</h3>
+<p>Nahrajte rozbalený adresář do kořenového adresáře SFTP (/app/data) aplikace OSCloud (tj. jednu úroveň nad public/).</p>
+<p><center>
+<img src="/img/lamp-upload-ioncube.png" class="shadow" width="500px">
+</center></p>
+<h3 id="krok-3-povoleni-rozsireni">Krok 3: Povolení rozšíření</h3>
+<p>V kořenovém adresáři aplikace OSCloud (v /app/data) najdete soubor php.ini.</p>
+<p>Přidejte následující řádek pro povolení rozšíření (přidejte jej před mnoho ;extension řádků):</p>
+<div class="codehilite"><pre><span></span><code><span class="nv">zend_extension</span><span class="o">=</span>/app/data/ioncube/ioncube_loader_lin_7.2.so
+</code></pre></div>
+
+<p>Aplikace LAMP má deaktivovanou podporu pro thread safety, proto zvolte rozšíření bez přípony <code>ts</code>.</p>
+<h3 id="krok-4-restart-aplikace">Krok 4: Restart aplikace</h3>
+<p>Nakonec restartujte aplikaci, aby se povolilo rozšíření.</p>
+<h3 id="krok-5-overeni-instalace">Krok 5: Ověření instalace</h3>
+<p>Navštivte výchozí stránku aplikace LAMP a ověřte, zda je rozšíření povoleno.</p>
+<p><center>
+<img src="/img/lamp-ioncube-installed.png" class="shadow" width="500px">
+</center></p>
+<h2 id="konfigurace-mysql">Konfigurace MySQL</h2>
+<p>Přihlašovací údaje k databázi naleznete v souboru <code>/app/data/credentials.txt</code> pomocí <a href="https://">správce souborů</a>.</p>
+<p>Technicky vzato jsou přihlašovací údaje MySQL zpřístupněny aplikaci jako proměnné prostředí. Tyto proměnné se mohou časem měnit. Tento přístup umožňuje OSCloud pravidelně měnit heslo k databázi jako bezpečnostní opatření a také umožňuje snadnou migraci aplikací mezi různými instalacemi OSCloud.</p>
+<p>Zveřejněné proměnné prostředí jsou:</p>
+<div class="codehilite"><pre><span></span><code><span class="nv">CLOUDRON_MYSQL_URL</span><span class="o">=</span><span class="w">            </span><span class="c1"># MySQL URL (pouze pokud používáte jednu databázi)</span>
+<span class="nv">CLOUDRON_MYSQL_USERNAME</span><span class="o">=</span><span class="w">       </span><span class="c1"># Uživatelské jméno</span>
+<span class="nv">CLOUDRON_MYSQL_PASSWORD</span><span class="o">=</span><span class="w">       </span><span class="c1"># Heslo</span>
+<span class="nv">CLOUDRON_MYSQL_HOST</span><span class="o">=</span><span class="w">           </span><span class="c1"># IP adresa nebo hostname serveru</span>
+<span class="nv">CLOUDRON_MYSQL_PORT</span><span class="o">=</span><span class="w">           </span><span class="c1"># Port serveru</span>
+<span class="nv">CLOUDRON_MYSQL_DATABASE</span><span class="o">=</span><span class="w">       </span><span class="c1"># Název databáze (pouze pokud používáte jednu databázi)</span>
+</code></pre></div>
+
+<p>Pokud má PHP aplikace konfigurační soubor <code>config.php</code>, který vyžaduje přihlašovací údaje k MySQL, mohou být nastaveny takto:</p>
+<div class="codehilite"><pre><span></span><code>&#39;db&#39; =&gt; array (
+    &#39;hostname&#39; =&gt; getenv(&quot;CLOUDRON_MYSQL_HOST&quot;),
+    &#39;username&#39; =&gt; getenv(&quot;CLOUDRON_MYSQL_USERNAME&quot;),
+    &#39;password&#39; =&gt; getenv(&quot;CLOUDRON_MYSQL_PASSWORD&quot;),
+    &#39;database&#39; =&gt; getenv(&quot;CLOUDRON_MYSQL_DATABASE&quot;)
+), // Konfigurace databáze
+</code></pre></div>
+
+<p>Některé aplikace zobrazují instalační obrazovku a budou vyžadovat surové přihlašovací údaje MySQL. Tyto přihlašovací údaje lze získat pomocí Správce souborů v souboru <code>/app/data/credentials.txt</code>.</p>
+<p><center>
+<img src="/img/lamp-webterminal-mysql.png" class="shadow" width="500px">
+</center></p>
+<p><strong>Důležité</strong>  Jakmile je instalace dokončena, ujistěte se, že jste v konfiguračním souboru aplikace přešli na použití proměnných prostředí pomocí <code>getenv()</code> namísto surových přihlašovacích údajů. Jinak by budoucí aktualizace mohly aplikaci narušit.</p>
+<h3 id="prizpusobeni-mysql">Přizpůsobení MySQL</h3>
+<p>Na OSCloud je server MySQL sdílen mezi všemi aplikacemi. Každá aplikace získá přihlašovací údaje bez oprávnění roota, což zajišťuje jejich vzájemnou izolaci. To znamená, že nelze nastavit MySQL specificky pro jednu aplikaci.</p>
+<p>Nicméně mnoho <a href="https://dev.mysql.com/doc/refman/5.7/en/server-system-variables.html">proměnných MySQL</a>, jako například <code>sql_mode</code>, může být nastaveno na relaci úpravou vašeho kódu takto:</p>
+<div class="codehilite"><pre><span></span><code><span class="x">// připojte se k MySQL a spusťte první dotaz</span>
+<span class="x">mysql_query(&quot;SET SESSION SQL_MODE = &#39;TRADITIONAL&#39;&quot;);</span>
+<span class="x">mysql_query(&quot;SET SESSION UNIQUE_CHECKS = false&quot;);</span>
+<span class="x">mysql_query(&quot;SET SESSION FOREIGN_KEY_CHECKS=0&quot;);</span>
+</code></pre></div>
+
+<h2 id="phpmyadmin">phpMyAdmin</h2>
+<p>phpMyAdmin je přístupný na adrese <code>/phpmyadmin</code> aplikace. Používá základní ověřování přes soubor htpasswd a je přednastaven s administrátorským účtem a vygenerovaným heslem. Heslo naleznete v souboru <code>phpmyadmin_login.txt</code>, spolu s detaily o správě dalších uživatelů.</p>
+<p><br/>
+<center>
+<img src="/img/lamp-phpmyadmin.png" class="shadow" width="500px">
+</center>
+<br/></p>
+<p>Pokud přístup přestane fungovat, jednoduše odstraňte soubor <code>.phpmyadminauth</code> a restartujte aplikaci. Tím se vygenerují nové přihlašovací údaje pro phpMyAdmin.</p>
+<h2 id="deaktivace-phpmyadmin">Deaktivace phpMyAdmin</h2>
+<p>Je dobrým bezpečnostním postupem phpMyAdmin po jeho použití deaktivovat. Pro deaktivaci upravte soubor /app/data/apache/app.conf pomocí Správce souborů a komentujte následující řádek:</p>
+<div class="codehilite"><pre><span></span><code><span class="c1"># Tento řádek můžete zakomentovat, pokud nepotřebujete přístup k PHPMyAdmin</span>
+<span class="c1"># Include &quot;/app/code/apache/phpmyadmin.conf&quot;</span>
+</code></pre></div>
+
+<p>Nezapomeňte aplikaci restartovat po provedení výše uvedené změny.</p>
+<h2 id="email">Email</h2>
+<p>Na OSCloud jsou přihlašovací údaje k e-mailu zpřístupněny aplikaci jako proměnné prostředí.</p>
+<p>Zveřejněné proměnné prostředí jsou:</p>
+<div class="codehilite"><pre><span></span><code>CLOUDRON_MAIL_SMTP_SERVER<span class="w">       </span><span class="c1"># SMTP server</span>
+CLOUDRON_MAIL_SMTP_PORT<span class="w">         </span><span class="c1"># Port SMTP serveru</span>
+CLOUDRON_MAIL_SMTPS_PORT<span class="w">        </span><span class="c1"># Port SMTPS serveru (pro legacy aplikace)</span>
+CLOUDRON_MAIL_SMTP_USERNAME<span class="w">     </span><span class="c1"># Uživatelské jméno</span>
+CLOUDRON_MAIL_SMTP_PASSWORD<span class="w">     </span><span class="c1"># Heslo</span>
+CLOUDRON_MAIL_FROM<span class="w">              </span><span class="c1"># MAIL FROM adresa. Pro změnu viz [tento odkaz](/apps/#mail-from-address)</span>
+CLOUDRON_MAIL_DOMAIN<span class="w">            </span><span class="c1"># Doména e-mailu</span>
+</code></pre></div>
+
+<p>Můžete použít <code>getenv()</code> pro získání hodnot výše uvedených proměnných prostředí v kódu. Surové hodnoty lze získat pomocí Správce souborů v souboru <code>/app/data/credentials.txt</code>.</p>
+<p><strong>Upozornění: Vestavěná funkce PHP mail() nefunguje</strong> Používá lokální binární soubor sendmail, který není nakonfigurován na OSCloud.</p>
+<p>Můžete použít <a href="https://packagist.org/packages/phpmailer/phpmailer">PHPMailer</a> k odesílání e-mailů (nainstalováno pomocí composer require phpmailer/phpmailer):</p>
+<div class="codehilite"><pre><span></span><code><span class="cp">&lt;?php</span>
+<span class="c1">//Import PHPMailer classes into the global namespace</span>
+<span class="c1">//These must be at the top of your script, not inside a function</span>
+<span class="k">use</span> <span class="nx">PHPMailer\PHPMailer\PHPMailer</span><span class="p">;</span>
+<span class="k">use</span> <span class="nx">PHPMailer\PHPMailer\SMTP</span><span class="p">;</span>
+<span class="k">use</span> <span class="nx">PHPMailer\PHPMailer\Exception</span><span class="p">;</span>
+
+<span class="c1">//Load Composer&#39;s autoloader</span>
+<span class="k">require</span> <span class="s1">&#39;vendor/autoload.php&#39;</span><span class="p">;</span>
+
+<span class="c1">//Create an instance; passing `true` enables exceptions</span>
+<span class="nv">$mail</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">PHPMailer</span><span class="p">(</span><span class="k">true</span><span class="p">);</span>
+
+<span class="k">try</span> <span class="p">{</span>
+    <span class="c1">//Server settings</span>
+    <span class="nv">$mail</span><span class="o">-&gt;</span><span class="na">SMTPDebug</span> <span class="o">=</span> <span class="nx">SMTP</span><span class="o">::</span><span class="na">DEBUG_SERVER</span><span class="p">;</span>                      <span class="c1">//Enable verbose debug output</span>
+    <span class="nv">$mail</span><span class="o">-&gt;</span><span class="na">isSMTP</span><span class="p">();</span>                                            <span class="c1">//Send using SMTP</span>
+    <span class="nv">$mail</span><span class="o">-&gt;</span><span class="na">Host</span>       <span class="o">=</span> <span class="nb">getenv</span><span class="p">(</span><span class="s1">&#39;CLOUDRON_MAIL_SMTP_SERVER&#39;</span><span class="p">);</span>    <span class="c1">//Set the SMTP server to send through</span>
+    <span class="nv">$mail</span><span class="o">-&gt;</span><span class="na">SMTPAuth</span>   <span class="o">=</span> <span class="k">true</span><span class="p">;</span>                                   <span class="c1">//Enable SMTP authentication</span>
+    <span class="nv">$mail</span><span class="o">-&gt;</span><span class="na">Username</span>   <span class="o">=</span> <span class="nb">getenv</span><span class="p">(</span><span class="s1">&#39;CLOUDRON_MAIL_SMTP_USERNAME&#39;</span><span class="p">);</span>  <span class="c1">//SMTP username</span>
+    <span class="nv">$mail</span><span class="o">-&gt;</span><span class="na">Password</span>   <span class="o">=</span> <span class="nb">getenv</span><span class="p">(</span><span class="s1">&#39;CLOUDRON_MAIL_SMTP_PASSWORD&#39;</span><span class="p">);</span>  <span class="c1">//SMTP password</span>
+    <span class="nv">$mail</span><span class="o">-&gt;</span><span class="na">SMTPSecure</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="p">;</span>
+    <span class="nv">$mail</span><span class="o">-&gt;</span><span class="na">Port</span>       <span class="o">=</span> <span class="nb">getenv</span><span class="p">(</span><span class="s1">&#39;CLOUDRON_MAIL_SMTP_PORT&#39;</span><span class="p">);</span>
+
+    <span class="c1">//Recipients</span>
+    <span class="nv">$mail</span><span class="o">-&gt;</span><span class="na">setFrom</span><span class="p">(</span><span class="nb">getenv</span><span class="p">(</span><span class="s1">&#39;CLOUDRON_MAIL_FROM&#39;</span><span class="p">),</span> <span class="s1">&#39;Mailer&#39;</span><span class="p">);</span>
+    <span class="nv">$mail</span><span class="o">-&gt;</span><span class="na">addAddress</span><span class="p">(</span><span class="s1">&#39;test@cloudron.io&#39;</span><span class="p">,</span> <span class="s1">&#39;Cloudron Test&#39;</span><span class="p">);</span>     <span class="c1">//Add a recipient</span>
+
+    <span class="c1">//Content</span>
+    <span class="nv">$mail</span><span class="o">-&gt;</span><span class="na">isHTML</span><span class="p">(</span><span class="k">true</span><span class="p">);</span>                                  <span class="c1">//Set email format to HTML</span>
+    <span class="nv">$mail</span><span class="o">-&gt;</span><span class="na">Subject</span> <span class="o">=</span> <span class="s1">&#39;Here is the subject&#39;</span><span class="p">;</span>
+    <span class="nv">$mail</span><span class="o">-&gt;</span><span class="na">Body</span>    <span class="o">=</span> <span class="s1">&#39;This is the HTML message body &lt;b&gt;in bold!&lt;/b&gt;&#39;</span><span class="p">;</span>
+    <span class="nv">$mail</span><span class="o">-&gt;</span><span class="na">AltBody</span> <span class="o">=</span> <span class="s1">&#39;This is the body in plain text for non-HTML mail clients&#39;</span><span class="p">;</span>
+
+    <span class="nv">$mail</span><span class="o">-&gt;</span><span class="na">send</span><span class="p">();</span>
+    <span class="k">echo</span> <span class="s1">&#39;Message has been sent&#39;</span><span class="p">;</span>
+<span class="p">}</span> <span class="k">catch</span> <span class="p">(</span><span class="nx">Exception</span> <span class="nv">$e</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">echo</span> <span class="s2">&quot;Message could not be sent. Mailer Error: </span><span class="si">{</span><span class="nv">$mail</span><span class="o">-&gt;</span><span class="na">ErrorInfo</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<h2 id="redis">Redis</h2>
+<p>Na OSCloud jsou přihlašovací údaje k Redis zpřístupněny aplikaci jako proměnné prostředí.</p>
+<p>Zveřejněné proměnné prostředí jsou:</p>
+<div class="codehilite"><pre><span></span><code>CLOUDRON_REDIS_URL<span class="w">          </span><span class="c1"># Redis URL ve formátu redis://username:password@host:port</span>
+CLOUDRON_REDIS_HOST<span class="w">         </span><span class="c1"># Hostname serveru Redis</span>
+CLOUDRON_REDIS_PORT<span class="w">         </span><span class="c1"># Port serveru Redis</span>
+CLOUDRON_REDIS_PASSWORD<span class="w">     </span><span class="c1"># Heslo Redis</span>
+</code></pre></div>
+
+<p>Můžete použít <code>getenv()</code> pro získání hodnot výše uvedených proměnných prostředí v kódu. Surové hodnoty lze získat pomocí Správce souborů v souboru <code>/app/data/credentials.txt</code>.</p>
+<h2 id="ldap">LDAP</h2>
+<p>Na OSCloud jsou přihlašovací údaje k LDAP zpřístupněny aplikaci jako proměnné prostředí.</p>
+<p>Zveřejněné proměnné prostředí jsou:</p>
+<div class="codehilite"><pre><span></span><code><span class="nv">CLOUDRON_LDAP_SERVER</span><span class="o">=</span><span class="w">                                </span><span class="c1"># IP adresa LDAP serveru</span>
+<span class="nv">CLOUDRON_LDAP_HOST</span><span class="o">=</span><span class="w">                                  </span><span class="c1"># IP adresa LDAP serveru (stejná jako výše)</span>
+<span class="nv">CLOUDRON_LDAP_PORT</span><span class="o">=</span><span class="w">                                  </span><span class="c1"># Port LDAP serveru</span>
+<span class="nv">CLOUDRON_LDAP_URL</span><span class="o">=</span><span class="w">                                   </span><span class="c1"># URL LDAP serveru ve formátu ldap://ip:port</span>
+<span class="nv">CLOUDRON_LDAP_USERS_BASE_DN</span><span class="o">=</span><span class="w">                         </span><span class="c1"># Základní DN uživatelů LDAP ve formátu ou=users,dc=oscloud</span>
+<span class="nv">CLOUDRON_LDAP_GROUPS_BASE_DN</span><span class="o">=</span><span class="w">                        </span><span class="c1"># Základní DN skupin LDAP ve formátu ou=groups,dc=oscloud</span>
+<span class="nv">CLOUDRON_LDAP_BIND_DN</span><span class="o">=</span><span class="w">                               </span><span class="c1"># DN pro provádění požadavků LDAP</span>
+<span class="nv">CLOUDRON_LDAP_BIND_PASSWORD</span><span class="o">=</span><span class="w">                         </span><span class="c1"># Heslo pro provádění požadavků LDAP</span>
+</code></pre></div>
+
+<p>Chcete-li chránit web pomocí základního ověřování LDAP, použijte následující konfiguraci Apache:</p>
+<div class="codehilite"><pre><span></span><code><span class="nt">&lt;Directory</span><span class="w"> </span><span class="s">/app/data/public</span><span class="nt">&gt;</span>
+<span class="w">    </span><span class="nb">Options</span><span class="w"> </span>+FollowSymLinks
+<span class="w">    </span><span class="nb">AllowOverride</span><span class="w"> </span><span class="k">None</span>
+<span class="w">    </span><span class="nb">Require</span><span class="w"> </span>valid-user
+<span class="w">    </span><span class="nb">AuthName</span><span class="w"> </span><span class="s2">&quot;OSCloud LDAP Authentication&quot;</span>
+<span class="w">    </span><span class="nb">AuthBasicProvider</span><span class="w"> </span>ldap
+<span class="w">    </span><span class="nb">AuthType</span><span class="w"> </span>Basic
+<span class="w">    </span><span class="nb">AuthLDAPURL</span><span class="w"> </span>${CLOUDRON_LDAP_URL}/${CLOUDRON_LDAP_USERS_BASE_DN}?username?sub?(username=*)
+<span class="w">    </span><span class="nb">AuthLDAPBindDN</span><span class="w"> </span>${CLOUDRON_LDAP_BIND_DN}
+<span class="w">    </span><span class="nb">AuthLDAPBindPassword</span><span class="w"> </span>${CLOUDRON_LDAP_BIND_PASSWORD}
+<span class="nt">&lt;/Directory&gt;</span>
+</code></pre></div>
+
+<h2 id="vlastni-startovaci-skript">Vlastní startovací skript</h2>
+<p>Vlastní startovací skript lze umístit do <code>/app/data/run.sh</code>. Například:</p>
+<div class="codehilite"><pre><span></span><code><span class="ch">#!/bin/bash</span>
+
+<span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;Tento skript je volán před spuštěním aplikace.&quot;</span>
+
+<span class="c1"># Vytvoření symlinků</span>
+rm<span class="w"> </span>-rf<span class="w"> </span>/app/data/var/cache
+mkdir<span class="w"> </span>-p<span class="w"> </span>/run/cache
+ln<span class="w"> </span>-sf<span class="w"> </span>/run/cache<span class="w"> </span>/app/data/var/cache
+</code></pre></div>
+
+<h2 id="composer">Composer</h2>
+<p>composer, npm a další běžné nástroje jsou nainstalovány z obrazového souboru OSCloud. Pro spuštění těchto nástrojů přepněte nejprve na uživatele www-data (většina by neměla být spuštěna jako root).</p>
+<div class="codehilite"><pre><span></span><code>su<span class="w"> </span>-<span class="w"> </span>www-data
+<span class="nb">cd</span><span class="w"> </span>/app/data/public<span class="w">           </span><span class="c1"># zde je umístěn PHP kód</span>
+composer<span class="w"> </span>require<span class="w"> </span>drush/drush
+npm<span class="w"> </span>install
+</code></pre></div>
+
+<div class="admonition note">
+<p class="admonition-title">Memory limit</p>
+</div>
+<p>Aplikace LAMP běží s 256 MB RAM jako výchozí nastavení, což nemusí být dostatečné pro Composer a další nástroje. Pokud vidíte chybovou zprávu Killed, zvyšte limit paměti aplikace na 1 GB.</p>
+<h2 id="laravel">Laravel</h2>
+<p>Chcete-li spustit aplikace Laravel, viz tento článek.
+Nastavení reverzní proxy</p>
+<p>Pokud chcete například provozovat vlastní WordPress v rámci této aplikace, kód bude běžet za nginx proxy. Aplikace jako WordPress vyžadují určitý kód ve <code>wp-config.php</code>, aby tuto konfiguraci zpracovaly:</p>
+<div class="codehilite"><pre><span></span><code>/*
+<span class="w"> </span>http://cmanios.wordpress.com/2014/04/12/nginx-https-reverse-proxy-to-wordpress-with-apache-http-and-different-port/
+<span class="w"> </span>http://wordpress.org/support/topic/compatibility-with-wordpress-behind-a-reverse-proxy
+<span class="w"> </span>https://wordpress.org/support/topic/wp_home-and-wp_siteurl
+<span class="w"> </span>*/
+//<span class="w"> </span>If<span class="w"> </span>WordPress<span class="w"> </span>is<span class="w"> </span>behind<span class="w"> </span>reverse<span class="w"> </span>proxy<span class="w"> </span>which<span class="w"> </span>proxies<span class="w"> </span>https<span class="w"> </span>to<span class="w"> </span>http
+<span class="k">if</span><span class="w"> </span><span class="o">(</span>!empty<span class="o">(</span><span class="nv">$_SERVER</span><span class="o">[</span><span class="s1">&#39;HTTP_X_FORWARDED_FOR&#39;</span><span class="o">]))</span><span class="w"> </span><span class="o">{</span>
+<span class="w">    </span><span class="nv">$_SERVER</span><span class="o">[</span><span class="s1">&#39;HTTP_HOST&#39;</span><span class="o">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">$_SERVER</span><span class="o">[</span><span class="s1">&#39;HTTP_X_FORWARDED_HOST&#39;</span><span class="o">]</span><span class="p">;</span>
+
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="o">(</span><span class="nv">$_SERVER</span><span class="o">[</span><span class="s1">&#39;HTTP_X_FORWARDED_PROTO&#39;</span><span class="o">]</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s1">&#39;https&#39;</span><span class="o">)</span>
+<span class="w">        </span><span class="nv">$_SERVER</span><span class="o">[</span><span class="s1">&#39;HTTPS&#39;</span><span class="o">]=</span><span class="s1">&#39;on&#39;</span><span class="p">;</span>
+<span class="o">}</span>
+</code></pre></div>
+
+<h2 id="kontrola-stavu">Kontrola stavu</h2>
+<p>Aplikace LAMP očekává odpověď 2xx z cesty '/'. Pokud je vaše aplikace zcela chráněna, kontrola stavu může označit vaši aplikaci jako neodpovídající namísto běžící.</p>
+<p>Můžete to obejít přidáním následujícího kódu do <code>/app/data/public/.htaccess</code>:</p>
+<div class="codehilite"><pre><span></span><code><span class="nb">RewriteEngine</span><span class="w"> </span><span class="k">On</span>
+<span class="nb">RewriteCond</span><span class="w"> </span>%{HTTP_USER_AGENT}<span class="w"> </span>OSCloudHealth
+<span class="nb">RewriteRule</span><span class="w"> </span>^<span class="w"> </span>-<span class="w"> </span>[R=200]
+</code></pre></div>
+
+<p>Případně přidejte něco takového do config.php nebo index.php aplikace:</p>
+<div class="codehilite"><pre><span></span><code><span class="x">if ($_SERVER[&quot;REMOTE_ADDR&quot;] == &#39;172.18.0.1&#39;) {</span>
+<span class="x">    echo &quot;OSCloud kontrola stavu odpověď&quot;;</span>
+<span class="x">    exit;</span>
+<span class="x">}</span>
+</code></pre></div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2024 Oscloud CZ
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://git.arch-linux.cz/Oscloud" target="_blank" rel="noopener" title="git.arch-linux.cz" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M216.29 158.39H137C97 147.9 6.51 150.63 6.51 233.18c0 30.09 15 51.23 35 61-25.1 23-37 33.85-37 49.21 0 11 4.47 21.14 17.89 26.81C8.13 383.61 0 393.35 0 411.65c0 32.11 28.05 50.82 101.63 50.82 70.75 0 111.79-26.42 111.79-73.18 0-58.66-45.16-56.5-151.63-63l13.43-21.55c27.27 7.58 118.7 10 118.7-67.89 0-18.7-7.73-31.71-15-41.07l37.41-2.84zm-63.42 241.9c0 32.06-104.89 32.1-104.89 2.43 0-8.14 5.27-15 10.57-21.54 77.71 5.3 94.32 3.37 94.32 19.11m-50.81-134.58c-52.8 0-50.46-71.16 1.2-71.16 49.54 0 50.82 71.16-1.2 71.16m133.3 100.51v-32.1c26.75-3.66 27.24-2 27.24-11V203.61c0-8.5-2.05-7.38-27.24-16.26l4.47-32.92H324v168.71c0 6.51.4 7.32 6.51 8.14l20.73 2.84v32.1zm52.45-244.31c-23.17 0-36.59-13.43-36.59-36.61s13.42-35.77 36.59-35.77c23.58 0 37 12.62 37 35.77s-13.42 36.61-37 36.61M512 350.46c-17.49 8.53-43.1 16.26-66.28 16.26-48.38 0-66.67-19.5-66.67-65.46V194.75c0-5.42 1.05-4.06-31.71-4.06V154.5c35.78-4.07 50-22 54.47-66.27h38.63c0 65.83-1.34 61.81 3.26 61.81H501v40.65h-60.56v97.15c0 6.92-4.92 51.41 60.57 26.84z"/></svg>
+    </a>
+  
+    
+    
+      
+    
+    
+    
+      
+      
+    
+    <a href="https://mamutovo.cz/@oscloud" target="_blank" rel="noopener me" title="mamutovo.cz" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M433 179.11c0-97.2-63.71-125.7-63.71-125.7-62.52-28.7-228.56-28.4-290.48 0 0 0-63.72 28.5-63.72 125.7 0 115.7-6.6 259.4 105.63 289.1 40.51 10.7 75.32 13 103.33 11.4 50.81-2.8 79.32-18.1 79.32-18.1l-1.7-36.9s-36.31 11.4-77.12 10.1c-40.41-1.4-83-4.4-89.63-54a102.5 102.5 0 0 1-.9-13.9c85.63 20.9 158.65 9.1 178.75 6.7 56.12-6.7 105-41.3 111.23-72.9 9.8-49.8 9-121.5 9-121.5m-75.12 125.2h-46.63v-114.2c0-49.7-64-51.6-64 6.9v62.5h-46.33V197c0-58.5-64-56.6-64-6.9v114.2H90.19c0-122.1-5.2-147.9 18.41-175 25.9-28.9 79.82-30.8 103.83 6.1l11.6 19.5 11.6-19.5c24.11-37.1 78.12-34.8 103.83-6.1 23.71 27.3 18.4 53 18.4 175z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://matrix.to/#/!nnrBXdWbSiXkfiYtWR:mxchat.cz?via=mxchat.cz" target="_blank" rel="noopener" title="matrix.to" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M88.2 309.1c9.8-18.3 6.8-40.8-7.5-55.8C59.4 230.9 48 204 48 176c0-63.5 63.8-128 160-128s160 64.5 160 128-63.8 128-160 128c-13.1 0-25.8-1.3-37.8-3.6-10.4-2-21.2-.6-30.7 4.2q-6.15 3.15-12.6 6c-16 7.2-32.9 13.5-49.9 18 2.8-4.6 5.4-9.1 7.9-13.6 1.1-1.9 2.2-3.9 3.2-5.9zM208 352c114.9 0 208-78.8 208-176S322.9 0 208 0 0 78.8 0 176c0 41.8 17.2 80.1 45.9 110.3-.9 1.7-1.9 3.5-2.8 5.1-10.3 18.4-22.3 36.5-36.6 52.1-6.6 7-8.3 17.2-4.6 25.9C5.8 378.3 14.4 384 24 384c43 0 86.5-13.3 122.7-29.7 4.8-2.2 9.6-4.5 14.2-6.8 15.1 3 30.9 4.5 47.1 4.5m224 128c16.2 0 31.9-1.6 47.1-4.5 4.6 2.3 9.4 4.6 14.2 6.8C529.5 498.7 573 512 616 512c9.6 0 18.2-5.7 22-14.5s2-19-4.6-25.9c-14.2-15.6-26.2-33.7-36.6-52.1-.9-1.7-1.9-3.4-2.8-5.1 28.8-30.3 46-68.6 46-110.4 0-94.4-87.9-171.5-198.2-175.8 4.1 15.2 6.2 31.2 6.2 47.8v.6c87.2 6.7 144 67.5 144 127.4 0 28-11.4 54.9-32.7 77.2-14.3 15-17.3 37.6-7.5 55.8 1.1 2 2.2 4 3.2 5.9 2.5 4.5 5.2 9 7.9 13.6-17-4.5-33.9-10.7-49.9-18q-6.45-2.85-12.6-6c-9.5-4.8-20.3-6.2-30.7-4.2-12.1 2.4-24.8 3.6-37.8 3.6-61.7 0-110-26.5-136.8-62.3-16 5.4-32.8 9.4-50 11.8C279 439.8 350 480 432 480"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["search.suggest", "navigation.indexes"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.525ec568.min.js"></script>
+      
+        <script src="../../javascripts/extra.js"></script>
+      
+    
+  </body>
+</html>
