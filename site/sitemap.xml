@@ -2,70 +2,74 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.oscloud.cz/</loc>
-         <lastmod>2024-10-26</lastmod>
+         <lastmod>2024-10-31</lastmod>
     </url>
     <url>
          <loc>https://docs.oscloud.cz/apps/</loc>
-         <lastmod>2024-10-26</lastmod>
+         <lastmod>2024-10-31</lastmod>
     </url>
     <url>
          <loc>https://docs.oscloud.cz/backups/</loc>
-         <lastmod>2024-10-26</lastmod>
+         <lastmod>2024-10-31</lastmod>
     </url>
     <url>
          <loc>https://docs.oscloud.cz/certificates/</loc>
-         <lastmod>2024-10-26</lastmod>
+         <lastmod>2024-10-31</lastmod>
     </url>
     <url>
          <loc>https://docs.oscloud.cz/contact/</loc>
-         <lastmod>2024-10-26</lastmod>
+         <lastmod>2024-10-31</lastmod>
     </url>
     <url>
          <loc>https://docs.oscloud.cz/profile/</loc>
-         <lastmod>2024-10-26</lastmod>
+         <lastmod>2024-10-31</lastmod>
     </url>
     <url>
          <loc>https://docs.oscloud.cz/security/</loc>
-         <lastmod>2024-10-26</lastmod>
+         <lastmod>2024-10-31</lastmod>
     </url>
     <url>
          <loc>https://docs.oscloud.cz/support/</loc>
-         <lastmod>2024-10-26</lastmod>
+         <lastmod>2024-10-31</lastmod>
     </url>
     <url>
          <loc>https://docs.oscloud.cz/apps/cryptpad/</loc>
-         <lastmod>2024-10-26</lastmod>
+         <lastmod>2024-10-31</lastmod>
     </url>
     <url>
          <loc>https://docs.oscloud.cz/apps/lamp/</loc>
-         <lastmod>2024-10-26</lastmod>
+         <lastmod>2024-10-31</lastmod>
     </url>
     <url>
          <loc>https://docs.oscloud.cz/apps/mastodon/</loc>
-         <lastmod>2024-10-26</lastmod>
+         <lastmod>2024-10-31</lastmod>
     </url>
     <url>
          <loc>https://docs.oscloud.cz/apps/mirotalk/</loc>
-         <lastmod>2024-10-26</lastmod>
+         <lastmod>2024-10-31</lastmod>
     </url>
     <url>
          <loc>https://docs.oscloud.cz/apps/pairdrop/</loc>
-         <lastmod>2024-10-26</lastmod>
+         <lastmod>2024-10-31</lastmod>
     </url>
     <url>
          <loc>https://docs.oscloud.cz/apps/privatebin/</loc>
-         <lastmod>2024-10-26</lastmod>
+         <lastmod>2024-10-31</lastmod>
     </url>
     <url>
          <loc>https://docs.oscloud.cz/apps/searxng/</loc>
-         <lastmod>2024-10-26</lastmod>
+         <lastmod>2024-10-31</lastmod>
     </url>
     <url>
          <loc>https://docs.oscloud.cz/apps/surfer/</loc>
-         <lastmod>2024-10-26</lastmod>
+         <lastmod>2024-10-31</lastmod>
     </url>
     <url>
          <loc>https://docs.oscloud.cz/apps/vaultwarden/</loc>
-         <lastmod>2024-10-26</lastmod>
+         <lastmod>2024-10-31</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.oscloud.cz/apps/wordpress-managed/</loc>
+         <lastmod>2024-10-31</lastmod>
     </url>
 </urlset>
