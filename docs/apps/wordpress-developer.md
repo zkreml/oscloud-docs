@@ -12,8 +12,6 @@ Funkce:
 
 Pokud raději přenecháte odpovědnost za aplikaci aktualizací týmu Oscloud, použijte [Spravovanou aplikaci WordPress](/apps/wordpress-managed).
 
-* Dotazy? Zeptejte se ve [fóru Oscloud - WordPress (Vývojářská verze)](https://forum.cloudron.io/category/77/wordpress-developer)
-
 ## Admin stránka
 
 Admin stránka WordPressu se nachází na adrese `https://<moje.example.com>/wp-login.php`.
