@@ -14,7 +14,6 @@ nav:
     - 'Security': security.md
     - 'Zálohy': backups.md
   - Aplikace:
-    - '2FAuth': apps/2fauth.md
     - 'BookStack': apps/bookstack.md
     - 'Castopod': apps/castopod.md
     - 'CryptPad': apps/cryptpad.md
@@ -32,7 +31,6 @@ nav:
     - 'Mastodon': apps/mastodon.md
     - 'Miniflux': apps/miniflux.md
     - 'MiroTalk': apps/mirotalk.md
-    - 'Navidrome': apps/navidrome.md
     - 'Nextcloud': apps/nextcloud.md
     - 'ntfy': apps/ntfy.md
     - 'PairDrop': apps/pairdrop.md
