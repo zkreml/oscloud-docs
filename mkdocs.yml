@@ -21,7 +21,6 @@ nav:
     - 'Dokuwiki': apps/dokuwiki.md
     - 'Gitea': apps/gitea.md
     - 'GitHub Pages': apps/githubpages.md
-    - 'Gogs': apps/gogs.md
     - 'HedgeDoc': apps/hedgedoc.md
     - 'Immich': apps/immich.md
     - 'Joplin Server': apps/joplin-server.md

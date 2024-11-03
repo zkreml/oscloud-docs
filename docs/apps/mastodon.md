@@ -72,7 +72,8 @@ Hashtagy vám umožňují objevovat příspěvky na různá témata. Stačí kli
 
 Mastodon můžete používat i na mobilních zařízeních. Stačí si stáhnout aplikaci Mastodon pro Android nebo iOS a přihlásit se do svého účtu **mamutovo.cz**.
 
-- ![Google Play](https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg)
+[![Stáhnout na Google Play](https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg)](https://play.google.com/store/apps/details?id=org.joinmastodon.android)
+
 
 - <a href="https://apps.apple.com/us/app/mastodon/id1571998974"><img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-example-preferred_2x.png" alt="App Store" width="180"/></a>
 
