@@ -32,9 +32,10 @@ OSCloud vám umožňuje hostovat vlastní NodeBB fórum na vaší doméně s pln
 
 ## Jak začít?
 
-1. **Kontaktujte podporu**: Požádejte o instalaci NodeBB přes [helpdesk.oscloud.cz](https://helpdesk.oscloud.cz) nebo na emailu [podpora@oscloud.cz](mailto:podpora@oscloud.cz).
+1. **Kontaktujte podporu**: Požádejte o instalaci NodeBB přes [helpdesk.oscloud.cz](https://helpdesk.oscloud.cz/help/711028727) nebo na emailu [podpora@oscloud.cz](mailto:podpora@oscloud.cz).
 2. **Nastavte DNS záznamy**: Podle pokynů upravte DNS pro svou doménu.
 3. **Získejte přístup**: Po instalaci obdržíte přihlašovací údaje do administrace NodeBB.
+
 
 ---
 
