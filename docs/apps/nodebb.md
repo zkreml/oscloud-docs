@@ -23,10 +23,11 @@ OSCloud vám umožňuje hostovat vlastní NodeBB fórum na vaší doméně s pln
 
 ### Co nabízíme:
 
-- **Instalaci NodeBB na vaší doméně**: Profesionální nasazení a konfigurace.
-- **5 GB úložiště zdarma**: S možností navýšení dle potřeby.
-- **Automatické aktualizace a zálohy**: Bezpečnost a spolehlivost.
-- **Podpora**: Přátelská technická podpora přes [helpdesk.oscloud.cz](https://helpdesk.oscloud.cz).
+- **Instalaci na vaši doménu**: Profesionální nasazení a konfigurace.
+- **5 GB úložiště zdarma**: Základní plán zahrnuje úložiště s možností navýšení dle vašich požadavků.
+- **Automatické aktualizace a zálohy**: Zajištění bezpečnosti a spolehlivosti.
+- **Technická podpora**: K dispozici přes [helpdesk.oscloud.cz](https://helpdesk.oscloud.cz).
+- **Objednávky**: Další informace naleznete na stránce [Objednávky](https://helpdesk.oscloud.cz/help/711028727).
 
 ---
 
