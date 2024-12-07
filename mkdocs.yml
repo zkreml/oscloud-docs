@@ -31,6 +31,7 @@ nav:
     - 'Miniflux': apps/miniflux.md
     - 'MiroTalk': apps/mirotalk.md
     - 'Nextcloud': apps/nextcloud.md
+    - 'NodeBB': apps/nodebb.md
     - 'ntfy': apps/ntfy.md
     - 'PairDrop': apps/pairdrop.md
     - 'Peertube': apps/peertube.md
