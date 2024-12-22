@@ -1,19 +1,20 @@
-
 # O projektu
 
-Projekt OSCloud poskytuje otevřenou platformu pro hosting a správu aplikací, která je navržena tak, aby byla dostupná a snadno použitelná pro širokou škálu uživatelů, od začátečníků až po pokročilé administrátory.
+OSCloud je váš bezpečný cloud. Naším cílem je ukázat lidem výhody bezpečného internetu a Open Source technologií. Poskytujeme hosting a správu open-source aplikací, které nabízejí bezpečné a soukromé alternativy ke komerčním službám. OSCloud je navržen tak, aby byl dostupný jak jednotlivcům, tak týmům, kteří hledají transparentní a důvěryhodné řešení pro své potřeby.
 
 <center>
 <img src="/img/oscloud.png" class="shadow" width="500px">
 </center>
 
+Na OSCloud můžete využít širokou nabídku open-source aplikací, které spravujeme a pravidelně aktualizujeme. Kromě aplikací nabízíme také možnost hostingu vlastních webových stránek a e-mailových služeb, což z OSCloud činí komplexní platformu pro všechny vaše online potřeby.
 
-Cílem OSCloud je zjednodušit nasazení a správu open-source aplikací na vlastních serverech, což uživatelům umožňuje plnou kontrolu nad jejich daty a soukromím. Všechny aplikace dostupné na OSCloud jsou open-source, což znamená, že každý uživatel má přístup ke zdrojovému kódu a může aplikace přizpůsobit podle svých potřeb.
 ## Klíčové funkce OSCloud:
 
-- Automatizované aktualizace: Aplikace jsou vždy aktuální díky automatickému systému aktualizací, což zvyšuje jejich bezpečnost a stabilitu.
- - Zálohování a obnova dat: OSCloud poskytuje snadno konfigurovatelné nástroje pro zálohování, což usnadňuje obnovu dat v případě potřeby.
- - Ochrana soukromí a bezpečnost: Platforma klade důraz na ochranu uživatelských dat a umožňuje provozovat aplikace na vlastním serveru s plnou kontrolou nad bezpečnostními mechanismy.
- - Open-source aplikace: Všechny aplikace na OSCloud jsou open-source, což zaručuje transparentnost, možnost auditování kódu a přizpůsobení aplikací konkrétním požadavkům.
- 
-OSCloud je postaven na principech otevřenosti a spolupráce, což umožňuje flexibilní přizpůsobení potřebám jednotlivců i týmů. Díky tomu je OSCloud ideální volbou pro každého, kdo hledá bezpečné, efektivní a transparentní řešení pro provoz open-source aplikací.
+- **Bezpečnost a ochrana soukromí**: Všechny aplikace a služby jsou hostovány na našich zabezpečených serverech, což zajišťuje maximální ochranu dat a kontrolu nad vaším soukromím.
+- **Automatizované aktualizace**: Naše správa zajišťuje pravidelné aktualizace aplikací, aby zůstaly bezpečné, stabilní a aktuální.
+- **Zálohování a obnova dat**: Robustní systém zálohování umožňuje snadnou obnovu dat kdykoli je potřeba.
+- **Open-source aplikace**: Transparentní a přizpůsobitelné aplikace, které respektují vaše soukromí a umožňují plnou kontrolu.
+- **Hosting webových stránek a e-mailů**: Nabízíme možnost hostingu WordPress stránek, statických webů, LAMP aplikací, Grav a dalších.
+- **Uživatelská přívětivost**: OSCloud je navržen tak, aby byl snadno použitelný jak pro začátečníky, tak pro pokročilé uživatele.
+
+OSCloud je více než jen hostingová platforma – je to krok směrem k bezpečnějšímu a transparentnějšímu internetu. Naše služby jsou ideální pro jednotlivce, rodiny i organizace, které chtějí mít jistotu, že jejich data jsou v bezpečí a aplikace, které používají, respektují jejich soukromí.
