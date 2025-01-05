@@ -42,7 +42,7 @@ PeerTube na doméně vhsk.cz je komunitní projekt zaměřený na sdílení vide
    Registrace na [vhsky.cz](https://vhsky.cz) jsou otevřené. Každý se může připojit, prohlížet obsah, komentovat videa a vytvářet playlisty.
 
 2. **Úložný prostor**  
-   Každý nově registrovaný uživatel má k dispozici **100 MB pro nahrávání videí**. Po kontaktu s [portál podpory](https://helpdesk.oscloud.cz/help/3020290644) a schválení moderátorem lze získat **5 GB úložného prostoru**.
+   Každý nově registrovaný uživatel má k dispozici **100 MB pro nahrávání videí**. Po kontaktu s [podporou VHSky](https://helpdesk.oscloud.cz/help/3020290644) a schválení moderátorem lze získat **5 GB úložného prostoru**.
 
 3. **P2P streaming**  
    Videa jsou streamována pomocí peer-to-peer technologie, což zvyšuje rychlost a efektivitu.

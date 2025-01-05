@@ -5,7 +5,7 @@ Přístup k OSCloud aplikacím je zdarma, ale je nutné, aby účet a přístup 
 ## Jak získat přístup:
 
 1. **Požádejte o registraci**  
-   Kontaktujte nás prostřednictvím [portálu podpory](https://helpdesk.oscloud.cz/help/3020290644).  
+   Kontaktujte nás prostřednictvím [přístupu k aplikacím OSCloud](https://helpdesk.oscloud.cz/help/3020290644).  
    Uveďte, o jaké aplikace nebo služby máte zájem. Na e-mail, kterým jste nás kontaktovali, Vám zašleme pozvánku k vytvoření účtu.  
 
 2. **Přihlaste se do dashboardu**  
@@ -19,7 +19,7 @@ Přístup k OSCloud aplikacím je zdarma, ale je nutné, aby účet a přístup 
 
 ## Doplnění:
 
-- Pokud potřebujete přístup k aplikaci, která vyžaduje registraci z naší strany, prosíme vás, abyste nás pro lepší přehlednost kontaktovali vždy přes [portál podpory](https://helpdesk.oscloud.cz/help/3020290644).
+- Pokud potřebujete přístup k aplikaci, která vyžaduje registraci z naší strany, prosíme vás, abyste nás pro lepší přehlednost kontaktovali vždy přes [Přístup k aplikacím OSCloud](https://helpdesk.oscloud.cz/help/3020290644).
 - Objednávky slouží pouze pro objednání webhostingu nebo dalších placených služeb. Děkujeme za pochopení.
 
 ## Doporučení:
