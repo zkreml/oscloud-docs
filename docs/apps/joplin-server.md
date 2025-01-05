@@ -13,4 +13,4 @@ Na OSCloud funguje Joplin jako **synchronizační backend**, což znamená, že 
 
 ## Registrace
 
-Pro registraci do služby Joplin na OSCloud je nutné kontaktovat **podporu OSCloud**. Po dokončení registrace se aplikace Joplin automaticky objeví ve vašem dashboardu a bude připravena k synchronizaci s vaším Joplin účtem.
+Pro registraci do služby Joplin na OSCloud je nutné kontaktovat **podporu OSCloud** přes [Objednávky Oscloud](https://helpdesk.oscloud.cz/help/711028727). Po dokončení registrace se aplikace Joplin automaticky objeví ve vašem dashboardu a bude připravena k synchronizaci s vaším Joplin účtem.

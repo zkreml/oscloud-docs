@@ -28,11 +28,9 @@
 
 ## Jak získat přístup?
 
-1. **Kontaktujte podporu**: Zatím je registrace do Umami možná pouze prostřednictvím podpory na adrese:
-   - [Helpdesk](https://helpdesk.oscloud.cz/help/3295612635)
-   - Email: [podpora@oscloud.cz](mailto:podpora@oscloud.cz)
+1. **Kontaktujte podporu**: Zatím je registrace do Umami možná pouze prostřednictvím [Objednávky Oscloud](https://helpdesk.oscloud.cz/help/711028727).:
 
-2. **Po schválení**: Po schválení žádosti získáte přístup ke svému účtu a sledovacímu kódu.
+2. **Po schválení**: Po schválení žádosti získáte přístup ke svému účtu, sledovacímu kódu a aplikace Umami automaticky objeví ve vašem dashboardu. .
 
 ---
 

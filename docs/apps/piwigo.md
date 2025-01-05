@@ -28,9 +28,9 @@ V základní nabídce je k dispozici **10 GB úložného prostoru**, s možnost�
 
 ### Jak začít
 
-1. **Kontaktujte podporu**: Požádejte o instalaci Piwigo na vaši doménu prostřednictvím [helpdesk.oscloud.cz](https://helpdesk.oscloud.cz/help/711028727) nebo e-mailem na [podpora@oscloud.cz](mailto:podpora@oscloud.cz).
+1. **Kontaktujte podporu**: Požádejte o instalaci Piwigo na vaši doménu prostřednictvím [Objednávky Oscloud](https://helpdesk.oscloud.cz/help/711028727).
 2. **Nastavte DNS záznamy**: Podle pokynů podpory upravte DNS záznamy vaší domény.
 3. **Přístup k aplikaci**: Po dokončení instalace bude Piwigo dostupné ve vašem webovém rozhraní OSCloud.
-
+4. **Po dokončení instalace** se aplikace Piwigo automaticky objeví ve vašem dashboardu.
 
 Pro více informací o Piwigo navštivte [oficiální webové stránky](https://piwigo.org).

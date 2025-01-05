@@ -26,8 +26,8 @@ Na OSCloud nabízíme možnost hostovat **Discourse** na vlastní doméně, což
 - **Instalaci na vaši doménu**: Profesionální nasazení a konfigurace.
 - **5 GB úložiště zdarma**: Základní plán zahrnuje úložiště s možností navýšení dle vašich požadavků.
 - **Automatické aktualizace a zálohy**: Zajištění bezpečnosti a spolehlivosti.
-- **Technická podpora**: K dispozici přes [helpdesk.oscloud.cz](https://helpdesk.oscloud.cz).
-- **Objednávky**: Další informace naleznete na stránce [Objednávky](https://helpdesk.oscloud.cz/help/711028727).
+- **Technická podpora**: K dispozici přes stránku [podpory](https://helpdesk.oscloud.cz/help/3271740098).
+- **Objednávky**: Další informace naleznete na stránce [Objednávky OScloud](https://helpdesk.oscloud.cz/help/711028727).
 
 ---
 
@@ -36,10 +36,10 @@ Na OSCloud nabízíme možnost hostovat **Discourse** na vlastní doméně, což
 
 ## Jak začít?
 
-1. **Kontaktujte nás**: Požádejte o instalaci Discourse přes [helpdesk.oscloud.cz](https://helpdesk.oscloud.cz/help/711028727) nebo na emailu [podpora@oscloud.cz](mailto:podpora@oscloud.cz).
+1. **Kontaktujte nás**: Požádejte o instalaci Discourse přes [Objednávky Oscloud](https://helpdesk.oscloud.cz/help/711028727)
 2. **Nastavte DNS záznamy**: Upravené podle pokynů podpory.
 3. **Přihlaste se do administrace**: Po instalaci získáte přístup k plné správě fóra.
-
+4. **Po dokončení instalace** se aplikace Discourse automaticky objeví ve vašem dashboardu.
 
 ---
 
