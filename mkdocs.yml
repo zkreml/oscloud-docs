@@ -4,6 +4,8 @@ site_url: 'https://docs.oscloud.cz'
 copyright: 'Copyright &copy; 2024 Oscloud CZ'
 nav:
   - Úvodní stránka: 'index.md'
+  - 'Registrace do OSCloud aplikací': Registrace do OSCloud aplikací.md
+  - 'Webhosting a prémiové služby': Webhosting a prémiové služby.md
   - 'Podpora a kontakty':
     - 'Podpora': support.md
     - 'Kontaktujte nás': contact.md
