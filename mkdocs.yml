@@ -21,6 +21,7 @@ nav:
     - 'CryptPad': apps/cryptpad.md
     - 'Discourse': apps/discourse.md
     - 'Dokuwiki': apps/dokuwiki.md
+    - 'FindMyDevice': apps/findmydevice.md
     - 'Gitea': apps/gitea.md
     - 'GitHub Pages': apps/githubpages.md
     - 'HedgeDoc': apps/hedgedoc.md
@@ -56,6 +57,7 @@ nav:
     - 'Jak nás podpořit': podporte-nas.md
   - Podmínky a soukromí:
     - 'Podmínky Oscloud CZ': podmínky Oscloud CZ.md
+    - 'Zásady ochrany osobních údajů': privacy_policy.md
 extra_css:
   - 'styly/extra.css'
 extra_javascript:
