@@ -57,7 +57,7 @@ Vaši podporu si velmi vážíme, a proto nabízíme:
 ## 4. Kontakt
 
 Máte-li jakékoliv dotazy ohledně podpory, napište nám na:  
-- **Email:** [support@oscloud.cz](mailto:support@oscloud.cz)  
+- **Email:** [podpora@oscloud.cz](mailto:podpora@oscloud.cz)  
 - **Matrix:** [#oscloud:matrix.cz](https://matrix.to/#/#oscloud:matrix.cz)  
 
 ---
