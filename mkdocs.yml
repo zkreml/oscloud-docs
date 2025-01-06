@@ -54,6 +54,8 @@ nav:
 
   - Ceny:
     - 'Jak nás podpořit': podporte-nas.md
+  - Podmínky a soukromí:
+    - 'Podmínky Oscloud CZ': podmínky Oscloud CZ.md
 extra_css:
   - 'styly/extra.css'
 extra_javascript:
