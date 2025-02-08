@@ -29,6 +29,7 @@ nav:
     - 'Joplin Server': apps/joplin-server.md
     - 'LAMP': apps/lamp.md
     - 'Linkding': apps/linkding.md
+    - 'Linkwarden': apps/linkwarden.md
     - 'Lychee': apps/lychee.md
     - 'Mastodon': apps/mastodon.md
     - 'Miniflux': apps/miniflux.md
