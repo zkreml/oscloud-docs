@@ -29,7 +29,7 @@ Linkwarden je open-source aplikace určená pro správu a organizaci uložených
 
 ## Bezpečnost v Linkwardenu
 
-1. **Lokální uložiště:** Data zůstanou na vašem serveru, bez odesílání do cloudu třetích stran.
+1. **Lokální uložiště:** Data zůstanou na našem serveru, bez odesílání do cloudu třetích stran.
 2. **Šifrování:** Podpora HTTPS připojení a zabezpečení hesel.
 3. **Zálohy:** Možnost pravidelných záloh pro minimalizaci ztráty dat.
 4. **Kontrola přístupu:** Nastavení oprávnění pro různé uživatele.
