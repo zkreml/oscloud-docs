@@ -19,6 +19,10 @@
 ## Jak to funguje? 
 
 1. Otevřete [rss.oscloud.cz](https://rss.oscloud.cz/).
-1. Klikněte na "Log in with Oscloud"
+1. Klikněte na *Log in with Oscloud*
 1. Přidejte si nové RSS kanály (např. [iDnes](https://www.idnes.cz/rss), [Lidové noviny](https://www.lidovky.cz/rss.aspx))
+    1. Vyberte si kanal a zkopirujte jeho URL (např. [všechny články na iDnes](https://servis.idnes.cz/rss.aspx))
+    1. V Tiny tiny RSS zmáčkněte `f` a pak `s` (přihlásit se k doběru)
+    1. Vložte adresu a zvolte kategorii (je možné změnit později)
+    1. Počkejte chvíli, než dojde k prvnímu intervalu stažení vašich novinek (~ 30 min)
 1. Buďte už vždy v obraze
