@@ -15,3 +15,10 @@
 - **flexibilní vyhledávání a filtrování článků**: Full-textové vyhledávání v článcích, filtrování, automtaciké mazaní atd.
 - **JSON API**: strojový přístup například pro automatizaci, zpracování apd.
 - a mnohem víc
+
+## Jak to funguje? 
+
+1. Otevřete [rss.oscloud.cz](https://rss.oscloud.cz/).
+1. Klikněte na "Log in with Oscloud"
+1. Přidejte si nové RSS kanály (např. [iDnes](https://www.idnes.cz/rss), [Lidové noviny](https://www.lidovky.cz/rss.aspx))
+1. Buďte už vždy v obraze
