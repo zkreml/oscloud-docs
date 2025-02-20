@@ -47,4 +47,5 @@ Každý uživatel má základní kvótu 10 GB pro své fotografie a videa. Pokud
 ### Závěr
 Immich je skvělá alternativa ke komerčním cloudovým řešením, která dává uživatelům plnou kontrolu nad jejich soubory. Pokud máš jakékoli dotazy nebo potřebuješ podporu, neváhej kontaktovat helpdesk na [helpdesk.oscloud.cz](https://helpdesk.oscloud.cz/help/3020290644).
 
+<<<<<<< HEAD
 * [Immich Website](https://www.immich.app/)
