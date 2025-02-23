@@ -1,4 +1,4 @@
-# Služba Ntfy
+# <img src="/img/ntfy-logo.png" width="25px"> Ntfy 
 
 ## Ntfy
 

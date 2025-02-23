@@ -36,7 +36,7 @@ nav:
     - 'MiroTalk': apps/mirotalk.md
     - 'Nextcloud': apps/nextcloud.md
     - 'NodeBB': apps/nodebb.md
-    - 'ntfy': apps/ntfy.md
+    - 'Ntfy': apps/ntfy.md
     - 'PairDrop': apps/pairdrop.md
     - 'Peertube': apps/peertube.md
     - 'Piwigo': apps/piwigo.md
