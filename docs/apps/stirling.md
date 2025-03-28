@@ -41,12 +41,11 @@ StirlingPDF nabízí širokou škálu funkcí, které zahrnují:
 1. Přihlaste se do svého účtu Oscloud.
 2. V nabídce aplikací vyberte **StirlingPDF**.
 3. Klikněte na možnost **Přihlásit se přes Single Sign-On (SSO)**.
+4. Klikněte na možnost **Oscloud**.
 
-<center>
+  <center>
 <img src="/img/stirling_1.png" class="shadow" width="500px">
 </center>
-
-4. Klikněte na možnost **Oscloud**.
 
 <center>
 <img src="/img/stirling_2.png" class="shadow" width="500px">
