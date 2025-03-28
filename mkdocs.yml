@@ -46,6 +46,7 @@ nav:
     - 'Roundcube': apps/roundcube.md
     - 'SearXNG': apps/searxng.md
     - 'Surfer': apps/surfer.md
+    - 'StirlingPDF': apps/stirling.md
     - 'TinyTinyRSS': apps/tinytinyrss.md
     - 'Umami': apps/umami.md
     - 'Vaultwarden': apps/vaultwarden.md
