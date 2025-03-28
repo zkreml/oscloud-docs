@@ -7,6 +7,10 @@ pro práci s PDF dokumenty.
 Jedná se o open-source nástroj, který umožňuje snadné a rychlé manipulace s PDF soubory.
 Aplikace je navržena tak, aby vyhovovala potřebám jednotlivců i firem.
 
+<center>
+<img src="/img/stirling_app.png" class="shadow" width="500px">
+</center>
+
 ---
 
 ## K čemu StirlingPDF slouží?
@@ -36,6 +40,17 @@ StirlingPDF nabízí širokou škálu funkcí, které zahrnují:
 
 1. Přihlaste se do svého účtu Oscloud.
 2. V nabídce aplikací vyberte **StirlingPDF**.
+3. Klikněte na možnost **Přihlásit se přes Single Sign-On (SSO)**.
+
+<center>
+<img src="/img/stirling_1.png" class="shadow" width="500px">
+</center>
+
+4. Klikněte na možnost **Oscloud**.
+
+<center>
+<img src="/img/stirling_2.png" class="shadow" width="500px">
+</center>
 
 ### 2. Základní funkce
 
