@@ -103,7 +103,8 @@ StirlingPDF nabízí širokou škálu funkcí, které zahrnují:
 
 ## Závěr
 
-StirlingPDF je všestranný nástroj, který usnadňuje práci s PDF dokumenty. Díky jeho snadnému ovládání a širokému spektru funkcí
+StirlingPDF je všestranný nástroj, který usnadňuje práci s PDF dokumenty.
+Díky jeho snadnému ovládání a širokému spektru funkcí
 je ideální volbou pro každodenní práci.
 
 Pokud máte jakékoliv otázky nebo problémy, obraťte se na podporu Oscloud.
