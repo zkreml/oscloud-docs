@@ -109,4 +109,8 @@ je ideální volbou pro každodenní práci.
 
 Pokud máte jakékoliv otázky nebo problémy, obraťte se na podporu Oscloud.
 
+## Odkazy
+
 [![GitHub – Stirling-PDF](https://img.shields.io/badge/GitHub-Stirling--PDF-blue?logo=github)](https://github.com/Stirling-Tools/Stirling-PDF)
+
+- Oficiální web: [www.stirlingpdf.com](https://www.stirlingpdf.com/)
