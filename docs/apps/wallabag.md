@@ -7,7 +7,7 @@ Wallabag je open-source aplikace určená pro ukládání, organizaci a čtení 
 </center>
 
 
-Na OSCloud je Wallabag dostupný na adrese [read.oscloud.cz](https://read.oscloud.cz/). Pro registraci je nutné kontaktovat podporu na [helpdesk.oscloud.cz](https://helpdesk.oscloud.cz/help/3295612635) nebo emailem na [podpora@oscloud.cz](mailto:podpora@oscloud.cz).
+Na OSCloud je Wallabag dostupný na adrese [read.oscloud.cz](https://read.oscloud.cz/). Pro registraci je nutné kontaktovat podporu na [helpdesk.oscloud.cz](https://helpdesk.oscloud.cz/help/3020290644) nebo emailem na [podpora@oscloud.cz](mailto:podpora@oscloud.cz).
 
 ## Srovnání se službami Pocket, Instapaper a Wallabag
 
