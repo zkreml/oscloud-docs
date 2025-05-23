@@ -48,7 +48,7 @@ Po instalaci aplikace propojte svůj účet Wallabag na OSCloud podle přiložen
 
 ## Jak začít
 
-1. Požádejte o registraci přes [Objednávky Oscloud](https://helpdesk.oscloud.cz/help/711028727).
+1. Požádejte o registraci přes [Objednávky Oscloud](https://helpdesk.oscloud.cz/help/3020290644).
 2. Po schválení registrace obdržíte přihlašovací údaje.
 3. Přihlaste se na [read.oscloud.cz](https://read.oscloud.cz/) pomocí poskytnutých údajů.
 4. Nainstalujte si mobilní aplikaci Wallabag.
