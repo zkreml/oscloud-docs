@@ -57,3 +57,33 @@ Po instalaci aplikace propojte svůj účet Wallabag na OSCloud podle přiložen
 ## Další informace
 
 Pro více informací o funkcích Wallabag navštivte [oficiální web Wallabag](https://wallabag.org/).
+
+Na Oscloudu můžeš ve Wallabagu ukládat a číst články z českých zpravodajských webů. Některé z nich fungují i za přihlášením (např. Deník N).
+
+---
+
+## ✅ České weby, které aktuálně fungují
+
+Tyto domény mají podporu ve Wallabagu a měly by správně fungovat:
+
+- [x] `denikn.cz` *(funguje i s paywallem – viz níže)*
+- [x] `novinky.cz`
+- [x] `root.cz`
+- [x] `lupa.cz`
+- [x] `zdopravy.cz`
+- [x] `seznamzpravy.cz`
+- [x] `reportermagazin.cz`
+
+---
+
+## 🔐 Jak číst Deník N
+
+1. Klikni na **Site credentials** (ikona klíče vpravo nahoře)
+2. Zadej přihlašovací údaje k Deníku N:
+   - **Host:** `denikn.cz`
+   - **Login:** e-mail
+   - **Password:** heslo
+3. Ulož. Hotovo.
+
+Nyní můžeš vkládat odkazy na články z Deníku N, a pokud máš předplatné, Wallabag je zobrazí.
+
