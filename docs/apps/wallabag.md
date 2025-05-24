@@ -66,13 +66,13 @@ Na Oscloudu můžeš ve Wallabagu ukládat a číst články z českých zpravod
 
 Tyto domény mají podporu ve Wallabagu a měly by správně fungovat:
 
-- [x] `denikn.cz` *(funguje i s paywallem – viz níže)*
-- [x] `novinky.cz`
-- [x] `root.cz`
-- [x] `lupa.cz`
-- [x] `zdopravy.cz`
-- [x] `seznamzpravy.cz`
-- [x] `reportermagazin.cz`
+-  `denikn.cz` *(funguje i s paywallem – viz níže)*
+-  `novinky.cz`
+-  `root.cz`
+-  `lupa.cz`
+-  `zdopravy.cz`
+-  `seznamzpravy.cz`
+-  `reportermagazin.cz`
 
 ---
 
@@ -85,5 +85,17 @@ Tyto domény mají podporu ve Wallabagu a měly by správně fungovat:
    - **Password:** heslo
 3. Ulož. Hotovo.
 
+<center>
+<img src="/img/denik_walabag1.png" class="shadow" width="400px">
+</center>
+
+<center>
+<img src="/img/denik_walabag2.png" class="shadow" width="400px">
+</center>
+
 Nyní můžeš vkládat odkazy na články z Deníku N, a pokud máš předplatné, Wallabag je zobrazí.
+
+## Další informace
+
+Pro více informací o funkcích Wallabag navštivte [oficiální web Wallabag](https://wallabag.org/).
 
