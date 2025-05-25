@@ -95,6 +95,71 @@ Tyto domény mají podporu ve Wallabagu a měly by správně fungovat:
 
 Nyní můžeš vkládat odkazy na články z Deníku N, a pokud máš předplatné, Wallabag je zobrazí.
 
+# 🦊 Wallabag – přidání rozšíření do Firefoxu
+
+Tento návod ti ukáže, jak do Firefoxu přidat rozšíření **Wallabagger**, propojit ho se svým účtem ve Wallabagu (např. na OSCloudu) a začít si ukládat články jedním kliknutím.
+
+---
+
+## 📹 Videonávod
+
+<iframe title="Jak přidat Wallabag rozšíření do Firefoxu"
+        width="100%"
+        height="400"
+        src="https://vhsky.cz/videos/embed/tmrCgnyzXFQnyamxLyFpJr"
+        frameborder="0"
+        allowfullscreen
+        sandbox="allow-same-origin allow-scripts allow-popups allow-forms">
+</iframe>
+
+> *Toto video ukazuje celý postup krok za krokem.*
+
+---
+
+## 🔧 Podrobný postup
+
+### 1. Nainstaluj rozšíření Wallabagger
+
+1. Otevři Firefox
+2. Přejdi na stránku doplňku:  
+   👉 [Wallabagger na Mozilla Add-ons](https://addons.mozilla.org/cs/firefox/addon/wallabagger/)
+3. Klikni na **Přidat do Firefoxu** a potvrď instalaci
+
+Po instalaci se vpravo nahoře objeví ikonka slona (🐘).
+
+---
+
+### 2. Přihlas se do Wallabag a vytvoř API klienta
+
+1. Otevři svou instanci Wallabag (např. [https://wallabag.oscloud.cz](https://wallabag.oscloud.cz))
+2. Přejdi do: **Nastavení → Správa API klientů**
+3. Klikni na **Přidat klienta**
+4. Vyplň:
+   - **Název**: např. „Firefox“
+5. Ulož si **Client ID** a **Client Secret**
+
+---
+
+### 3. Nastav rozšíření ve Firefoxu
+
+1. Klikni na ikonku Wallabaggeru (vpravo nahoře)
+2. V poli nastavení vyplň:
+   - **Wallabag instance URL**: `https://read.oscloud.cz`
+   - **Client ID**: z kroku 2
+   - **Client Secret**: z kroku 2
+3. Jméno uživatele a heslo
+
+
+---
+
+## ✅ Hotovo!
+
+Teď můžeš:
+- jedním klikem ukládat články do Wallabag
+- číst je později bez reklam a sledování
+- používat rozšíření i na mobilu (přes Firefox + přihlášení)
+
+
 ## Další informace
 
 Pro více informací o funkcích Wallabag navštivte [oficiální web Wallabag](https://wallabag.org/).
