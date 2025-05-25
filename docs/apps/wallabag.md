@@ -95,7 +95,7 @@ Tyto domény mají podporu ve Wallabagu a měly by správně fungovat:
 
 Nyní můžeš vkládat odkazy na články z Deníku N, a pokud máš předplatné, Wallabag je zobrazí.
 
-# 🦊 Wallabag – přidání rozšíření do Firefoxu
+## 🦊 Wallabag – přidání rozšíření do Firefoxu
 
 Tento návod ti ukáže, jak do Firefoxu přidat rozšíření **Wallabagger**, propojit ho se svým účtem ve Wallabagu (např. na OSCloudu) a začít si ukládat články jedním kliknutím.
 
