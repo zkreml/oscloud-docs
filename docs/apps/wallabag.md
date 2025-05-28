@@ -131,7 +131,7 @@ Po instalaci se vpravo nahoře objeví ikonka slona (🐘).
 
 ### 2. Přihlas se do Wallabag a vytvoř API klienta
 
-1. Otevři svou instanci Wallabag (např. [https://wallabag.oscloud.cz](https://wallabag.oscloud.cz))
+1. Otevři svou instanci [Wallabag](https://read.oscloud.cz/)
 2. Přejdi do: **Nastavení → Správa API klientů**
 3. Klikni na **Přidat klienta**
 4. Vyplň:
