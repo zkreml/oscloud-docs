@@ -2,7 +2,9 @@
 
 ## Nextcloud na Oscloud: Váš osobní cloud s 10 GB úložiště
 
-Oscloud nabízí Nextcloud pro všechny uživatele, kteří si přejí bezpečné a soukromé úložiště. S přístupem k Nextcloud se stačí přihlásit svým OSCloud účtem bez nutnosti registrace. Každý uživatel má základní úložiště 10 GB, které je možné navýšit na základě příspěvků.
+Oscloud nabízí Nextcloud pro všechny uživatele, kteří si přejí bezpečné a soukromé úložiště.
+S přístupem k Nextcloud se stačí přihlásit svým OSCloud účtem bez nutnosti registrace.
+Každý uživatel má základní úložiště 5 GB, které je možné navýšit na základě příspěvků.
 
 <center>
 <img src="/img/nextcloud.png" class="shadow" width="600px">
@@ -11,7 +13,8 @@ Oscloud nabízí Nextcloud pro všechny uživatele, kteří si přejí bezpečn�
 ## Co nabízí Nextcloud na Oscloud?
 
 - **Přístup odkudkoli:** Ať jste na počítači, tabletu nebo mobilu, Nextcloud máte vždy po ruce.
-- **Sdílení a spolupráce:** Jednoduše sdílejte soubory s ostatními a pracujte na dokumentech společně v reálném čase díky **ONLYOFFICE**.
+- **Sdílení a spolupráce:** Jednoduše sdílejte soubory s ostatními a pracujte
+  na dokumentech společně v reálném čase díky **Collabora Online**.
 - **Automatická záloha fotografií:** Nahrávejte a synchronizujte své fotografie automaticky z mobilních zařízení a mějte je bezpečně uložené v Nextcloudu.
 - **Zabezpečení:** Vaše data jsou chráněna a spravována bezpečně na OSCloud serverech.
 
@@ -37,3 +40,4 @@ Více informací o možnostech Nextcloud můžete najít v [oficiální dokument
 ---
 
 Vyzkoušejte Nextcloud na OSCloud a užijte si bezpečný, efektivní a přehledný cloud pro všechny své soubory!
+
