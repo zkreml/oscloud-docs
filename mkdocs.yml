@@ -32,6 +32,7 @@ nav:
     - 'Linkwarden': apps/linkwarden.md
     - 'Lychee': apps/lychee.md
     - 'Mastodon': apps/mastodon.md
+    - 'Mealie': apps/mealie.md
     - 'Miniflux': apps/miniflux.md
     - 'MiroTalk': apps/mirotalk.md
     - 'Nextcloud': apps/nextcloud.md
