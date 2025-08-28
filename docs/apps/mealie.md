@@ -2,7 +2,7 @@
 
 ## 📖 Co je Mealie
 
-[Mealie](https://mealie.io/) je moderní open-source aplikace pro správu receptů a plánování jídelníčků.  
+[Mealie](https://recepty.oscloud.cz/g/home/) je moderní open-source aplikace pro správu receptů a plánování jídelníčků.  
 Na Oscloudu ji můžeš používat pro svou rodinu i komunitní sdílení receptů.  
 Podporuje:
 
@@ -10,6 +10,7 @@ Podporuje:
 - 📅 plánování jídelníčků a menu  
 - 🛒 automatické generování nákupních seznamů  
 - 👥 více uživatelů a sdílení v domácnostech  
+- 🌐 import receptů přímo z webových stránek
 
 ---
 
@@ -85,3 +86,9 @@ Domácnosti fungují jako **pracovní prostory** – každá má vlastní:
 - **Viditelnost** = recepty jsou veřejné, pokud nejsou v soukromé domácnosti  
 - **Registrace** = pouze na pozvání nebo přes Oscloud účet  
 - Vhodné jak pro rodinu, tak pro komunitní sdílení na Oscloudu  
+
+## 📎 Odkazy
+
+- 🌐 Web projektu: [https://mealie.io](https://mealie.io)  
+- 💻 Zdrojové kódy: [https://github.com/mealie-recipes/mealie](https://github.com/mealie-recipes/mealie)  
+- 📖 Dokumentace: [https://docs.mealie.io](https://docs.mealie.io)  
