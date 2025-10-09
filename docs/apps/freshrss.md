@@ -13,6 +13,9 @@ Na OSCloudu je k dispozici jako jedna z předinstalovaných aplikací.
 - Plná kontrola nad zdroji a soukromím
 - Import/export zdrojů ve formátu OPML
 - Kompatibilita s mobilními čtečkami díky Fever API
+<center>
+<img src="/img/freshrss.png" class="shadow" width="500px">
+</center>
 
 ## Výhody FreshRSS na OSCloud
 
