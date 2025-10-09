@@ -22,6 +22,7 @@ nav:
     - 'Discourse': apps/discourse.md
     - 'Dokuwiki': apps/dokuwiki.md
     - 'FindMyDevice': apps/findmydevice.md
+    - 'FreshRSS': apps/freshrss.md
     - 'Gitea': apps/gitea.md
     - 'GitHub Pages': apps/githubpages.md
     - 'HedgeDoc': apps/hedgedoc.md
