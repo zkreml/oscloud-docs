@@ -50,6 +50,7 @@ nav:
     - 'Surfer': apps/surfer.md
     - 'StirlingPDF': apps/stirling.md
     - 'TinyTinyRSS': apps/tinytinyrss.md
+    - 'TriliumNext': apps/triliumnext.md
     - 'Umami': apps/umami.md
     - 'Vaultwarden': apps/vaultwarden.md
     - 'Vikunja': apps/vikunja.md
