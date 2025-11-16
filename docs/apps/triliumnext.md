@@ -192,8 +192,8 @@ Na OSCloud nabízíme Trilium Next jako **prémiovou aplikaci** pouze pro vážn
 
 | Plán                     | Cena             | Popis |
 |--------------------------|------------------|-------|
-| **Základní**             | 80 Kč / měsíc    | Vlastní instance Trilium Next, přístup odkudkoli |
-| **Roční**                | 800 Kč / rok     | Zvýhodněná cena|
+| **Základní**             | 65 Kč / měsíc    | Vlastní instance Trilium Next, přístup odkudkoli |
+| **Roční**                | 600 Kč / rok     | Zvýhodněná cena|
 | **Vlastní doména** *(volitelné)* | individuálně | Podpora vlastní domény (např. poznámky.mojedomena.cz) na vyžádání |
 
 💾 Neexistuje tvrdý limit na velikost dat, ale prosíme:  
