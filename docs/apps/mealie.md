@@ -72,9 +72,19 @@ Domácnosti fungují jako **pracovní prostory** – každá má vlastní:
 
 ## 📷 Ukázky
 
+Tmavý režim
+
 <center>
-<img src="/img/kucharka_oscloud.png" class="shadow" width="500px">
+<img src="/img/kucharka_oscloud-tmavy.png" class="shadow" width="500px">
 </center>
+
+Světlý režim
+
+<center>
+<img src="/img/kucharka_oscloud-svetly.png" class="shadow" width="500px">
+</center>
+
+
 
 ---
 
@@ -92,3 +102,4 @@ Domácnosti fungují jako **pracovní prostory** – každá má vlastní:
 - 🌐 Web projektu: [https://mealie.io](https://mealie.io)  
 - 💻 Zdrojové kódy: [https://github.com/mealie-recipes/mealie](https://github.com/mealie-recipes/mealie)  
 - 📖 Dokumentace: [https://docs.mealie.io](https://docs.mealie.io)  
+- 🇨🇿 Naše komunitní instanace: [Mealie](https://recepty.oscloud.cz/g/home/)
