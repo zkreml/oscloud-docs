@@ -1,4 +1,4 @@
-# <img src="/img/trilium-logo.png" width="25px"> TriliumNext
+# <img src="/img/trilium-logo.png" width="25px"> Trilium Next
 
 Hledáš nástroj na poznámky, který ti nenechá data v cloudu nějaké korporace? Potřebuješ něco víc než jen textový editor, ale nechceš platit měsíční předplatné? Trilium Next je open-source aplikace na správu poznámek a znalostní báze, kterou si nasadíš sám a máš plnou kontrolu.
 
@@ -40,12 +40,12 @@ Trilium ti umožňuje vytvářet vztahy mezi poznámkami (linky, ale i atributy)
 
 ### Skripty a automatizace
 
-Podporuje JavaScript skripty - můžeš si psát vlastní funkce, automaty na zpracování poznámek, widgety do rozhraní nebo dokonce celé mini-aplikace uvnitř Trilia.
+Podporuje JavaScript skripty – můžeš si psát vlastní funkce, automaty na zpracování poznámek, widgety do rozhraní nebo dokonce celé mini-aplikace uvnitř Trilia.
 
 ### Markdown, kód, tabulky, obrázky
 
-- Markdown s live preview
-- Syntax highlighting pro desítky jazyků
+- Markdown s živým náhledem (live preview)
+- Zvýraznění syntaxe (Syntax highlighting) pro desítky jazyků
 - Tabulky s možností editace
 - Vkládání obrázků, PDF, přílohy
 - Diagramy (Mermaid, Excalidraw)
@@ -72,6 +72,7 @@ Protože běží na našem serveru nebo na tvém počítači, máš nad Triliem 
 ### End-to-end šifrování chráněných poznámek
 
 Když poznámku označíš jako "protected":
+
 - Šifruje se lokálně před odesláním na server
 - Dešifruje se až po zadání hesla v klientovi
 - Na serveru leží pouze šifrovaná data
@@ -117,7 +118,7 @@ Trilium má vestavěný sync server. Sync funguje obousměrně, řeší konflikt
 
 ### Pro běžné uživatele
 
-I když Trilium vypadá jako technický nástroj, klidně ho může používat každý. Nemusíš rozumět kódu nebo serverům - stačí si stáhnout desktop aplikaci a máš hotovo.
+I když Trilium vypadá jako technický nástroj, klidně ho může používat každý. Nemusíš rozumět kódu nebo serverům – stačí si stáhnout desktop aplikaci a máš hotovo.
 
 **Co ti Trilium dá jako běžnému uživateli:**
 
@@ -125,7 +126,7 @@ I když Trilium vypadá jako technický nástroj, klidně ho může používat k
 - **Recepty a kuchařka**: Vlastní databáze receptů s fotkami, ingrediencemi a poznámkami. Žádné reklamy, žádné souhlas s cookies
 - **Cestovní plány**: Itineráře, rezervace, poznámky z cest. Vše na jednom místě, offline dostupné
 - **Nápady a projekty**: Renovace baráku, nápady na zahradu, plány na víkend. Můžeš k nim přidávat odkazy, obrázky, checklisty
-- **Učení se novým věcem**: Poznámky z kurzů, tutoriálů, knížek. Propojuj témata a vytvárej si vlastní wiki
+- **Učení se novým věcem**: Poznámky z kurzů, tutoriálů, knížek. Propojuj témata a vytvářej si vlastní wiki
 - **Finanční přehled**: Rozpočty, výdaje, investice. Můžeš si udělat vlastní tabulky a grafy
 
 **Proč ne Google Keep, Evernote nebo OneNote?**
@@ -154,7 +155,7 @@ I když Trilium vypadá jako technický nástroj, klidně ho může používat k
 
 ## Závěr
 
-Trilium Next je mocný nástroj pro každého, kdo chce mít svou znalostní bázi pod kontrolou. Není to jen "další Notion" - je to plnohodnotný systém pro správu poznámek s důrazem na soukromí, bezpečnost a otevřenost.
+Trilium Next je mocný nástroj pro každého, kdo chce mít svou znalostní bázi pod kontrolou. Není to jen "další Notion" – je to plnohodnotný systém pro správu poznámek s důrazem na soukromí, bezpečnost a otevřenost.
 
 Pokud ti vadí závislost na komerčních službách, a máš rád open source, určitě mu dej šanci.
 
@@ -164,7 +165,7 @@ Pokud ti vadí závislost na komerčních službách, a máš rád open source, 
 * **Frontend**: JavaScript (desktop klient je Electron)
 * **Licence**: AGPL-3.0
 * **Platformy**: Linux, Windows, macOS, web
-* **Mobilní**: Community app (TriliumNext Notes pro Android)
+* **Mobilní**: Community app (Trilium Next Notes pro Android)
 
 ## Trilium Next na OSCloud
 
@@ -177,12 +178,12 @@ Na OSCloud nabízíme Trilium Next jako **prémiovou aplikaci** pouze pro vážn
 * ✅ Pravidelné zálohy a HTTPS zabezpečení
 * ✅ Přístup přes webové rozhraní i synchronizaci s desktop klientem
 
-### Jak požadat o přístup?
+### Jak požádat o přístup?
 
 1. Napiš nám přes [helpdesk.oscloud.cz](https://helpdesk.oscloud.cz/help/711028727)
 2. Uveď:
 
-   * Požadovanou subdoménu (`např. poznámky.oscloud.cz`)
+   * Požadovanou subdoménu (např. `poznámky.oscloud.cz`)
    * Jak plánuješ Trilium používat (dobrovolné)
 3. Po schválení ti připravíme instanci a zašleme přístupy
 
