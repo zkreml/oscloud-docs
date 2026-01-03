@@ -20,6 +20,7 @@ Navštivte stránku [mamutovo.cz](https://mamutovo.cz) a klikněte na **Zaregist
 
 ### Krok 2: Vyplňte registrační formulář
 Vyplňte požadované údaje:
+
 - **Uživatelské jméno**: Zvolte si unikátní jméno, které vás bude na Mastodonu reprezentovat (např. `@jmeno@mamutovo.cz`).
 - **E-mail**: Vyplňte platnou e-mailovou adresu, kterou budete potřebovat pro aktivaci účtu.
 - **Heslo**: Zvolte silné heslo pro ochranu vašeho účtu.
@@ -36,6 +37,7 @@ Po potvrzení e-mailu se můžete přihlásit na [mamutovo.cz](https://mamutovo.
 
 ### Krok 1: Timeline (Časová osa)
 Na Mastodonu máte tři hlavní časové osy:
+
 - **Domácí timeline**: Zde uvidíte příspěvky (tooty) od lidí, které sledujete.
 - **Federovaná timeline**: Zobrazuje příspěvky z ostatních federovaných serverů, se kterými je **mamutovo.cz** propojeno.
 - **Místní timeline**: Obsahuje všechny příspěvky od uživatelů přímo na **mamutovo.cz**.
@@ -51,12 +53,14 @@ Příspěvky můžete nastavit jako:
 
 ### Krok 3: Sledování a interakce
 Můžete sledovat ostatní uživatele a jejich tooty se budou zobrazovat na vaší domácí časové ose. Můžete také:
+
 - **Lajkovat** příspěvky (klepnutím na srdíčko).
 - **Sdílet** je (tlačítko pro přeposlání).
 - **Odpovědět** (klepnutím na tlačítko odpovědi).
 
 ### Krok 4: Nastavení soukromí
 V nastavení účtu můžete ovládat, kdo může vidět vaše tooty a kdo vás může sledovat. Pokud chcete ještě větší kontrolu, můžete:
+
 - **Zamknout účet**: Vyžaduje schválení pro nové sledující.
 - **Nastavit výchozí úroveň viditelnosti**: Např. aby všechny vaše příspěvky byly automaticky soukromé.
 
@@ -86,6 +90,7 @@ Mastodon můžete používat i na mobilních zařízeních. Stačí si stáhnout
 ## 6. Časté dotazy (FAQ)
 
 ### Jaký je rozdíl mezi místní a federovanou časovou osou?
+
 - **Místní časová osa** zobrazuje příspěvky všech uživatelů z vaší instance **mamutovo.cz**.
 - **Federovaná časová osa** zobrazuje příspěvky od uživatelů z jiných instancí, se kterými **mamutovo.cz** federuje.
 
