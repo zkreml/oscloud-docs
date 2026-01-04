@@ -16,7 +16,7 @@ BookStack je open-source aplikace navržená pro organizaci, správu a sdílení
 
 ## Instalace BookStacku na OSCloud
 
-1. **Žádost o instalaci**: Uživatel musí požádat o instalaci aplikace BookStack.
+1. **Žádost o instalaci**: Uživatel musí [požádat](https://helpdesk.oscloud.cz/help/3271740098) o instalaci aplikace BookStack.
 2. **Vlastní doména**: Je vyžadována vlastní doména uživatele, kde bude aplikace přístupná.
 3. **Nastavení DNS**: Uživatel musí přesměrovat DNS záznamy své domény na OSCloud. S nastavením vám může pomoci podpora OSCloud.
 4. **Přístup v rozhraní OSCloud**: Po dokončení instalace se aplikace BookStack zobrazí v rozhraní OSCloud pro snadný přístup.
